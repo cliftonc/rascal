@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-25T11:32:35Z",
+  "interviewMode": "accept-all-recommended-defaults",
+  "decisions": [
+    {
+      "id": "RD-1",
+      "topic": "Language & runtime",
+      "question": "Target language & typing for the rebuild?",
+      "recommended": "TypeScript (full rewrite), Node.js LTS runtime",
+      "chosen": "TypeScript (full rewrite), Node.js LTS",
+      "rationale": "Current lib/ is untyped CommonJS JS. A widely-consumed library benefits most from shipped .d.ts and a typed config schema (schema.json -> config interfaces). User confirmed the TS recommendation. Raise engines.node to a maintained LTS (>=18) and resolve the existing >=14 vs CHANGELOG >=16 inconsistency."
+    },
+    {
+      "id": "RD-2",
+      "topic": "Packaging / module format",
+      "question": "Packaging / module format for the rebuilt library?",
+      "recommended": "Dual ESM + CJS with exports map (tsup)",
+      "chosen": "Dual ESM + CJS",
+      "rationale": "rascal has a large installed base of require('rascal') consumers; dual output preserves them while enabling import. Build via tsup/esbuild emitting both formats + .d.ts. User confirmed."
+    },
+    {
+      "id": "RD-3",
+      "topic": "Public async API contract",
+      "question": "Keep the dual callback Broker + promise BrokerAsPromised API?",
+      "recommended": "Keep both surfaces; reimplement the core with async/await",
+      "chosen": "Keep both, async/await core",
+      "rationale": "The dual public surface (9 exports incl. Broker + BrokerAsPromised) is a [MUST] contract. Preserving both is non-breaking; internals move from async.compose callback chains to native async/await. User confirmed."
+    },
+    {
+      "id": "RD-4",
+      "topic": "Underlying transport",
+      "question": "Keep amqplib as the AMQP transport?",
+      "recommended": "Keep amqplib (peer dependency)",
+      "chosen": "Keep amqplib",
+      "rationale": "amqplib IS the library's reason to exist; rascal is its config-driven wrapper. Swapping it (e.g. rabbitmq-client) would change channel/connection semantics the whole codebase depends on. Keep as peerDependency. Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-5",
+      "topic": "Dependency modernization",
+      "question": "Which helper dependencies to replace vs keep?",
+      "recommended": "Replace where native equivalents exist; keep specialized infra libs",
+      "chosen": "Modernize where safe",
+      "rationale": "Replace: async (-> native async/await), uuid@8 (-> crypto.randomUUID), safe-json-parse (-> try/catch JSON.parse), forward-emitter (-> explicit event re-emit), xregexp (-> native named-group regex), and trim lodash to targeted helpers or structuredClone for cloneDeep. Keep: amqplib, generic-pool (channel pooling), lru-cache (counters), debug, stashback (or a small native correlation map). Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-6",
+      "topic": "Testing framework",
+      "question": "Test framework for the rebuild?",
+      "recommended": "Vitest (+ v8 coverage), retain the docker RabbitMQ harness",
+      "chosen": "Vitest",
+      "rationale": "zUnit is niche; Vitest gives TS-native tests, parallelism, and built-in coverage (replacing nyc). Port the 15 existing suites preserving their assertions/test-vectors; keep the real-RabbitMQ docker dependency (the suites are integration-style). Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-7",
+      "topic": "API contract style",
+      "question": "REST / GraphQL / tRPC?",
+      "recommended": "N/A",
+      "chosen": "N/A",
+      "rationale": "rascal exposes no HTTP API (brief: 0 endpoints). Its 'API' is the library export surface (RD-3) plus the internal RabbitMQ Management HTTP client. No web contract style applies."
+    },
+    {
+      "id": "RD-8",
+      "topic": "Datastore & data access",
+      "question": "DB engine + ORM?",
+      "recommended": "N/A",
+      "chosen": "N/A",
+      "rationale": "No persistence layer (brief: 0 data models, 0 SQL DDL, no ORM). State is ephemeral in-memory (channel pools, counters, sessions)."
+    },
+    {
+      "id": "RD-9",
+      "topic": "Frontend",
+      "question": "Frontend framework?",
+      "recommended": "N/A",
+      "chosen": "N/A",
+      "rationale": "Backend messaging library; no UI layer detected."
+    },
+    {
+      "id": "RD-10",
+      "topic": "Hosting / distribution",
+      "question": "Deployment target?",
+      "recommended": "npm registry publish (existing GitHub Actions publish workflow)",
+      "chosen": "npm publish",
+      "rationale": "A library is distributed, not hosted. Keep the release-triggered npm publish workflow; update the Node matrix. Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-11",
+      "topic": "Target architecture",
+      "question": "Preserve the layer boundaries and overall shape?",
+      "recommended": "Single package, preserve layer boundaries (config/domain -> service -> messaging -> public API)",
+      "chosen": "Preserve boundaries, single package",
+      "rationale": "The discovered layering (lib/config, lib/backoff+counters, lib/amqp + tasks, index.js surface) is clean and maps directly to TS modules. Keep one published package; the task pipeline stays the modular topology-assertion engine. Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-12",
+      "topic": "Test re-use",
+      "question": "Re-run existing tests or rewrite?",
+      "recommended": "Port suites to Vitest preserving assertions; run old + new against the same broker",
+      "chosen": "Port preserving test vectors",
+      "rationale": "100% test-layer coverage (15 suites) is the strongest equivalence asset. Port them faithfully; during transition, run the legacy zUnit suite and the new Vitest suite against one RabbitMQ to prove parity. Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-13",
+      "topic": "Phasing order",
+      "question": "Build order?",
+      "recommended": "Foundations-first per import graph",
+      "chosen": "Foundations-first",
+      "rationale": "Import graph foundations: lib/config/* + lib/utils/setTimeoutUnref + lib/counters/* + lib/management/Client (most depended-upon leaves) -> lib/backoff -> lib/amqp/tasks -> Vhost -> Broker -> Publication/Subscription -> BrokerAsPromised wrappers -> index.js surface. Recorded at recommended (accept-all)."
+    },
+    {
+      "id": "RD-14",
+      "topic": "Validation & risk",
+      "question": "How to prove equivalence?",
+      "recommended": "Ported integration suite + parallel-run against real RabbitMQ; gate publish on green",
+      "chosen": "Parallel-run + ported suite",
+      "rationale": "Equivalence is provable because behavior is asserted against a real broker. Gate: every ported suite green on the Node LTS matrix, dual-format smoke test (require + import), and a parallel old-vs-new run on representative configs before the major release. Recorded at recommended (accept-all)."
+    }
+  ]
+}

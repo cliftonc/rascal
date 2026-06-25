@@ -1,0 +1,142 @@
+{
+  "layer": "tests",
+  "docDir": "unit-tests",
+  "count": 15,
+  "items": [
+    {
+      "id": "file:test/backoff/exponential.tests.js:exponential.tests.js",
+      "kind": "file",
+      "name": "exponential.tests.js",
+      "file": "test/backoff/exponential.tests.js",
+      "startLine": 1,
+      "endLine": 69,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/backoff/exponential.tests.js#L1-L69"
+    },
+    {
+      "id": "file:test/backoff/linear.tests.js:linear.tests.js",
+      "kind": "file",
+      "name": "linear.tests.js",
+      "file": "test/backoff/linear.tests.js",
+      "startLine": 1,
+      "endLine": 28,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/backoff/linear.tests.js#L1-L28"
+    },
+    {
+      "id": "file:test/broker.tests.js:broker.tests.js",
+      "kind": "file",
+      "name": "broker.tests.js",
+      "file": "test/broker.tests.js",
+      "startLine": 1,
+      "endLine": 540,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/broker.tests.js#L1-L540"
+    },
+    {
+      "id": "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js",
+      "kind": "file",
+      "name": "brokerAsPromised.tests.js",
+      "file": "test/brokerAsPromised.tests.js",
+      "startLine": 1,
+      "endLine": 247,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/brokerAsPromised.tests.js#L1-L247"
+    },
+    {
+      "id": "file:test/caches/inMemory.tests.js:inMemory.tests.js",
+      "kind": "file",
+      "name": "inMemory.tests.js",
+      "file": "test/caches/inMemory.tests.js",
+      "startLine": 1,
+      "endLine": 50,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/caches/inMemory.tests.js#L1-L50"
+    },
+    {
+      "id": "file:test/config.tests.js:config.tests.js",
+      "kind": "file",
+      "name": "config.tests.js",
+      "file": "test/config.tests.js",
+      "startLine": 1,
+      "endLine": 2105,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/config.tests.js#L1-L2105"
+    },
+    {
+      "id": "file:test/defaults.tests.js:defaults.tests.js",
+      "kind": "file",
+      "name": "defaults.tests.js",
+      "file": "test/defaults.tests.js",
+      "startLine": 1,
+      "endLine": 594,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/defaults.tests.js#L1-L594"
+    },
+    {
+      "id": "file:test/publications.tests.js:publications.tests.js",
+      "kind": "file",
+      "name": "publications.tests.js",
+      "file": "test/publications.tests.js",
+      "startLine": 1,
+      "endLine": 916,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/publications.tests.js#L1-L916"
+    },
+    {
+      "id": "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js",
+      "kind": "file",
+      "name": "publicationsAsPromised.tests.js",
+      "file": "test/publicationsAsPromised.tests.js",
+      "startLine": 1,
+      "endLine": 582,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/publicationsAsPromised.tests.js#L1-L582"
+    },
+    {
+      "id": "file:test/shovel.tests.js:shovel.tests.js",
+      "kind": "file",
+      "name": "shovel.tests.js",
+      "file": "test/shovel.tests.js",
+      "startLine": 1,
+      "endLine": 104,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/shovel.tests.js#L1-L104"
+    },
+    {
+      "id": "file:test/subscriptions.tests.js:subscriptions.tests.js",
+      "kind": "file",
+      "name": "subscriptions.tests.js",
+      "file": "test/subscriptions.tests.js",
+      "startLine": 1,
+      "endLine": 2952,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/subscriptions.tests.js#L1-L2952"
+    },
+    {
+      "id": "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js",
+      "kind": "file",
+      "name": "subscriptionsAsPromised.tests.js",
+      "file": "test/subscriptionsAsPromised.tests.js",
+      "startLine": 1,
+      "endLine": 2135,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/subscriptionsAsPromised.tests.js#L1-L2135"
+    },
+    {
+      "id": "file:test/utils/amqputils.js:amqputils.js",
+      "kind": "file",
+      "name": "amqputils.js",
+      "file": "test/utils/amqputils.js",
+      "startLine": 1,
+      "endLine": 162,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/utils/amqputils.js#L1-L162"
+    },
+    {
+      "id": "file:test/validation.tests.js:validation.tests.js",
+      "kind": "file",
+      "name": "validation.tests.js",
+      "file": "test/validation.tests.js",
+      "startLine": 1,
+      "endLine": 924,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/validation.tests.js#L1-L924"
+    },
+    {
+      "id": "file:test/vhost.tests.js:vhost.tests.js",
+      "kind": "file",
+      "name": "vhost.tests.js",
+      "file": "test/vhost.tests.js",
+      "startLine": 1,
+      "endLine": 287,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/vhost.tests.js#L1-L287"
+    }
+  ]
+}

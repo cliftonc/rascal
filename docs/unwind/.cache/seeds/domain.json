@@ -1,0 +1,61 @@
+{
+  "layer": "domain",
+  "docDir": "domain-model",
+  "count": 6,
+  "items": [
+    {
+      "id": "file:lib/config/baseline.js:baseline.js",
+      "kind": "file",
+      "name": "baseline.js",
+      "file": "lib/config/baseline.js",
+      "startLine": 1,
+      "endLine": 110,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/baseline.js#L1-L110"
+    },
+    {
+      "id": "file:lib/config/configure.js:configure.js",
+      "kind": "file",
+      "name": "configure.js",
+      "file": "lib/config/configure.js",
+      "startLine": 1,
+      "endLine": 367,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/configure.js#L1-L367"
+    },
+    {
+      "id": "file:lib/config/defaults.js:defaults.js",
+      "kind": "file",
+      "name": "defaults.js",
+      "file": "lib/config/defaults.js",
+      "startLine": 1,
+      "endLine": 21,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/defaults.js#L1-L21"
+    },
+    {
+      "id": "file:lib/config/fqn.js:fqn.js",
+      "kind": "file",
+      "name": "fqn.js",
+      "file": "lib/config/fqn.js",
+      "startLine": 1,
+      "endLine": 20,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/fqn.js#L1-L20"
+    },
+    {
+      "id": "file:lib/config/tests.js:tests.js",
+      "kind": "file",
+      "name": "tests.js",
+      "file": "lib/config/tests.js",
+      "startLine": 1,
+      "endLine": 44,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/tests.js#L1-L44"
+    },
+    {
+      "id": "file:lib/config/validate.js:validate.js",
+      "kind": "file",
+      "name": "validate.js",
+      "file": "lib/config/validate.js",
+      "startLine": 1,
+      "endLine": 189,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/validate.js#L1-L189"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "layer": "service",
+  "docDir": "service-layer",
+  "count": 8,
+  "items": [
+    {
+      "id": "file:lib/backoff/exponential.js:exponential.js",
+      "kind": "file",
+      "name": "exponential.js",
+      "file": "lib/backoff/exponential.js",
+      "startLine": 1,
+      "endLine": 27,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/backoff/exponential.js#L1-L27"
+    },
+    {
+      "id": "file:lib/backoff/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "lib/backoff/index.js",
+      "startLine": 1,
+      "endLine": 13,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/backoff/index.js#L1-L13"
+    },
+    {
+      "id": "file:lib/backoff/linear.js:linear.js",
+      "kind": "file",
+      "name": "linear.js",
+      "file": "lib/backoff/linear.js",
+      "startLine": 1,
+      "endLine": 11,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/backoff/linear.js#L1-L11"
+    },
+    {
+      "id": "file:lib/counters/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "lib/counters/index.js",
+      "startLine": 1,
+      "endLine": 9,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/counters/index.js#L1-L9"
+    },
+    {
+      "id": "file:lib/counters/inMemory.js:inMemory.js",
+      "kind": "file",
+      "name": "inMemory.js",
+      "file": "lib/counters/inMemory.js",
+      "startLine": 1,
+      "endLine": 15,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/counters/inMemory.js#L1-L15"
+    },
+    {
+      "id": "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+      "kind": "file",
+      "name": "inMemoryCluster.js",
+      "file": "lib/counters/inMemoryCluster.js",
+      "startLine": 1,
+      "endLine": 71,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/counters/inMemoryCluster.js#L1-L71"
+    },
+    {
+      "id": "file:lib/counters/stub.js:stub.js",
+      "kind": "file",
+      "name": "stub.js",
+      "file": "lib/counters/stub.js",
+      "startLine": 1,
+      "endLine": 7,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/counters/stub.js#L1-L7"
+    },
+    {
+      "id": "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js",
+      "kind": "file",
+      "name": "setTimeoutUnref.js",
+      "file": "lib/utils/setTimeoutUnref.js",
+      "startLine": 1,
+      "endLine": 5,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/utils/setTimeoutUnref.js#L1-L5"
+    }
+  ]
+}

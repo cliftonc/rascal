@@ -1,0 +1,269 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-25T11:30:43.773Z",
+  "project": {
+    "name": "rascal",
+    "languages": [
+      "javascript",
+      "json",
+      "markdown",
+      "txt",
+      "unknown",
+      "yaml"
+    ],
+    "estimatedComplexity": "moderate",
+    "totalFiles": 105,
+    "byLanguage": {
+      "yaml": 3,
+      "unknown": 4,
+      "json": 16,
+      "markdown": 2,
+      "javascript": 79,
+      "txt": 1
+    }
+  },
+  "detected": {
+    "languages": [
+      "javascript",
+      "json",
+      "markdown",
+      "txt",
+      "unknown",
+      "yaml"
+    ],
+    "ormSources": {},
+    "hasEndpoints": false,
+    "endpointMethods": []
+  },
+  "perLayer": [
+    {
+      "layer": "infrastructure",
+      "fileCount": 38,
+      "candidateCount": 38,
+      "symbolCount": 2,
+      "coverage": {
+        "covered": 38,
+        "total": 38,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 3,
+        "should": 7,
+        "dont": 28,
+        "untagged": 0
+      }
+    },
+    {
+      "layer": "messaging",
+      "fileCount": 36,
+      "candidateCount": 36,
+      "symbolCount": 35,
+      "coverage": {
+        "covered": 36,
+        "total": 36,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 71,
+        "should": 11,
+        "dont": 0,
+        "untagged": 2
+      }
+    },
+    {
+      "layer": "tests",
+      "fileCount": 15,
+      "candidateCount": 15,
+      "symbolCount": 1,
+      "coverage": {
+        "covered": 15,
+        "total": 15,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 15,
+        "should": 0,
+        "dont": 0,
+        "untagged": 0
+      }
+    },
+    {
+      "layer": "service",
+      "fileCount": 8,
+      "candidateCount": 8,
+      "symbolCount": 0,
+      "coverage": {
+        "covered": 8,
+        "total": 8,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 6,
+        "should": 2,
+        "dont": 0,
+        "untagged": 2
+      }
+    },
+    {
+      "layer": "domain",
+      "fileCount": 6,
+      "candidateCount": 6,
+      "symbolCount": 3,
+      "coverage": {
+        "covered": 6,
+        "total": 6,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 31,
+        "should": 2,
+        "dont": 0,
+        "untagged": 0
+      }
+    },
+    {
+      "layer": "api",
+      "fileCount": 2,
+      "candidateCount": 2,
+      "symbolCount": 1,
+      "coverage": {
+        "covered": 2,
+        "total": 2,
+        "coveragePct": 100,
+        "missingCount": 0
+      },
+      "priorities": {
+        "must": 12,
+        "should": 1,
+        "dont": 0,
+        "untagged": 1
+      }
+    }
+  ],
+  "contracts": {
+    "dataModels": 0,
+    "sqlDdl": 0,
+    "dataModelLinks": 0,
+    "endpoints": 0,
+    "byDefinitionKind": {},
+    "byEndpointMethod": {}
+  },
+  "importGraph": {
+    "fileCount": 36,
+    "hubs": [
+      {
+        "file": "lib/config/tests.js",
+        "dependents": 9
+      },
+      {
+        "file": "test/utils/amqputils.js",
+        "dependents": 6
+      },
+      {
+        "file": "lib/utils/setTimeoutUnref.js",
+        "dependents": 5
+      },
+      {
+        "file": "lib/counters/inMemory.js",
+        "dependents": 4
+      },
+      {
+        "file": "lib/config/configure.js",
+        "dependents": 3
+      },
+      {
+        "file": "lib/management/Client.js",
+        "dependents": 3
+      },
+      {
+        "file": "lib/amqp/Broker.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/config/defaults.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/amqp/tasks/index.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/config/fqn.js",
+        "dependents": 2
+      }
+    ],
+    "foundationCount": 34,
+    "foundations": [
+      {
+        "file": "test/utils/amqputils.js",
+        "dependents": 6
+      },
+      {
+        "file": "lib/utils/setTimeoutUnref.js",
+        "dependents": 5
+      },
+      {
+        "file": "lib/counters/inMemory.js",
+        "dependents": 4
+      },
+      {
+        "file": "lib/management/Client.js",
+        "dependents": 3
+      },
+      {
+        "file": "lib/config/defaults.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/config/fqn.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/config/validate.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/counters/stub.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/amqp/XDeath.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/backoff/exponential.js",
+        "dependents": 2
+      },
+      {
+        "file": "lib/backoff/linear.js",
+        "dependents": 2
+      },
+      {
+        "file": "examples/advanced/config.js",
+        "dependents": 1
+      },
+      {
+        "file": "lib/amqp/SubscriberSessionAsPromised.js",
+        "dependents": 1
+      },
+      {
+        "file": "lib/amqp/PublicationSession.js",
+        "dependents": 1
+      },
+      {
+        "file": "lib/amqp/tasks/applyBindings.js",
+        "dependents": 1
+      }
+    ]
+  },
+  "readiness": {
+    "hasCoverage": true,
+    "overallCoveragePct": 100,
+    "provisionalLayers": []
+  }
+}

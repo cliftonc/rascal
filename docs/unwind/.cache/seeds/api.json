@@ -1,0 +1,25 @@
+{
+  "layer": "api",
+  "docDir": "api",
+  "count": 2,
+  "items": [
+    {
+      "id": "file:index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "index.js",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/index.js#L1-L24"
+    },
+    {
+      "id": "file:lib/management/Client.js:Client.js",
+      "kind": "file",
+      "name": "Client.js",
+      "file": "lib/management/Client.js",
+      "startLine": 1,
+      "endLine": 56,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/management/Client.js#L1-L56"
+    }
+  ]
+}

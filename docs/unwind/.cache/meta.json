@@ -1,0 +1,428 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-25T08:30:03.966Z",
+  "gitCommitHash": "22017c3a177f02bfdc5032e5842aa1a066b027ff",
+  "analyzedFiles": 105,
+  "fingerprints": {
+    "_config.yml": {
+      "structural": "d2feab397d285b5e9446c12fc8a9275aa690d724",
+      "content": "1fa7263bb8afada463f324713e7ff29fbe6a2dd9"
+    },
+    ".eslintignore": {
+      "structural": "2d7bb5572221afa7d7fb30c8d19d3f693bfeee14",
+      "content": "2195214c9ec24735e423f180615df9f4db2ab404"
+    },
+    ".eslintrc.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "f6e39100f11f6752f9d86d8c7943b5eac7d2aa1f"
+    },
+    ".github/workflows/node-js-ci.yml": {
+      "structural": "d2feab397d285b5e9446c12fc8a9275aa690d724",
+      "content": "22e9e65873d454d3fbbb86e9d0bb597872349982"
+    },
+    ".github/workflows/node-js-publish.yml": {
+      "structural": "d2feab397d285b5e9446c12fc8a9275aa690d724",
+      "content": "c590a0e1d78fc8ae494b3aa70f099f4a66f71e1f"
+    },
+    ".husky/pre-commit": {
+      "structural": "2d7bb5572221afa7d7fb30c8d19d3f693bfeee14",
+      "content": "a58b717cb5d615252ed05ef95abf5b257e00d5f3"
+    },
+    ".npmignore": {
+      "structural": "2d7bb5572221afa7d7fb30c8d19d3f693bfeee14",
+      "content": "706347f5f892619d20fc20e08684e4f7cc107fe2"
+    },
+    ".npmrc": {
+      "structural": "2d7bb5572221afa7d7fb30c8d19d3f693bfeee14",
+      "content": "93d2a1705ed18e3ec0d3a912577d22619508c748"
+    },
+    "CHANGELOG.md": {
+      "structural": "e467e7cd05eebc1a6d4564238aac0d58a6074ac0",
+      "content": "8032147214c955a3ed8da342667d7312d64887f5"
+    },
+    "examples/advanced/cluster.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "9c1bc5c30830e34fca437bdba330a4101a48a9ac"
+    },
+    "examples/advanced/config.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "f4fd4fe7ac519e4bd6f67799d30846e503db1127"
+    },
+    "examples/advanced/handlers/deleteUser.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "3349e530a81d524cf4c6f446979f0c74720d2b8d"
+    },
+    "examples/advanced/handlers/saveUser.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "dc6ea9005b8684d3b7fe67ef0b095ace9573c54a"
+    },
+    "examples/advanced/index.js": {
+      "structural": "8e2d0c9d45811c21342a7c9c459336a35fe03397",
+      "content": "aa4ee306d25603234a780dafe5756cc0be40411b"
+    },
+    "examples/busy-publisher/config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "3543877ab19ff5002bda9148f0fcbbbb7739be89"
+    },
+    "examples/busy-publisher/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "4fa7986b4bbc4ab047589e968d1d2bdfd39a4a48"
+    },
+    "examples/busy-publisher/package-lock.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "cf28bdae96e8c3e01aca6666c1a4d2174164b5a7"
+    },
+    "examples/busy-publisher/package.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "69f22f78f6b2b31d4db0542198789395aa40ee23"
+    },
+    "examples/default-exchange/config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "87a4d5f35ea2be6dd44ddb3f6d9fe32507527191"
+    },
+    "examples/default-exchange/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "dd8b858b86c56e04d38c01104c739bc24bf6d5fc"
+    },
+    "examples/mocha/config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "db31cd3362b3765e4ff5462b1bc20a2421400dc6"
+    },
+    "examples/mocha/test.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "a59a149915a4d9f0114f35087226d4135a0b9656"
+    },
+    "examples/promises/config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "a62e23e6c72489d6264523cae00155430fb90b59"
+    },
+    "examples/promises/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "e89cbf526d2684d77dcd1029a485c10a64feda13"
+    },
+    "examples/simple/config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "00c6db7b7ce5c960f62c69bdcfe0af7d938a0c66"
+    },
+    "examples/simple/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "b56dcbd6f040da0396a651457279930a5378985d"
+    },
+    "examples/streams/package-lock.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "c87895aa66b898155068df0f76d23483b679a443"
+    },
+    "examples/streams/package.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "9948ecaf34bc414effc53d702c43ed919067f207"
+    },
+    "examples/streams/publisher-config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "daf259b2f0278c4c3a2240fe997818ec681e2134"
+    },
+    "examples/streams/publisher.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "8512b9e2518bd6420d91763851b7f09164e018d4"
+    },
+    "examples/streams/subscriber-config.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "8b794dd780acf6be0980391e39f9678cde4b108a"
+    },
+    "examples/streams/subscriber.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "5dfc19e4cf469ab12e743856bbfee235a5dafcb8"
+    },
+    "index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "c81ec33999b857fa5b7248913ac963a3bf29b751"
+    },
+    "lib/amqp/Broker.js": {
+      "structural": "ce1f766108587c74604daa5d43ab87f0c45f394f",
+      "content": "97ea2f764193a20dcaf594c03837dedfbd2ac9bb"
+    },
+    "lib/amqp/BrokerAsPromised.js": {
+      "structural": "d273ef3877bd7ba93a102d2836c4eed2001c0432",
+      "content": "a83c41df188827b951a893a1b3b2cad2eeebb4eb"
+    },
+    "lib/amqp/Publication.js": {
+      "structural": "e9989f6630f5b1310bb4307e956260593eb8518f",
+      "content": "3109964a21517bfab425dce3be3420b96ec3c937"
+    },
+    "lib/amqp/PublicationSession.js": {
+      "structural": "e3728a61dbaf357e718b99df357594222bad1ab1",
+      "content": "fbb9695b8e1091388a13392646b893ae62420f4f"
+    },
+    "lib/amqp/SubscriberError.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "33be92e8cd8e89d5d8b1e99b13952ee287336b7b"
+    },
+    "lib/amqp/SubscriberSession.js": {
+      "structural": "b2a1a6b851b444cef9fc5ffa3be3928854aeb6d6",
+      "content": "40335cb8f82fba1f8fb9f7d2aa31465aa415b22e"
+    },
+    "lib/amqp/SubscriberSessionAsPromised.js": {
+      "structural": "0b7e71317728a45a145a58828155aa1c01fe45ad",
+      "content": "eb74dabb7a90119b1efb99f7dc018fe65e9db059"
+    },
+    "lib/amqp/Subscription.js": {
+      "structural": "1d38cf6448589af69cd7bdfee9fd8a252a4f9d59",
+      "content": "53379e2cd6b2d24ddf68bd42ac2ac8851b27a031"
+    },
+    "lib/amqp/tasks/applyBindings.js": {
+      "structural": "6dfcd99b55ebaf1cd1631660dab6c4a0bafde12c",
+      "content": "16105399ec57199e8e22a2cdca967c66d50dfdca"
+    },
+    "lib/amqp/tasks/assertExchanges.js": {
+      "structural": "56e52a43349f82d4c6cd4eeefb93479e84a85753",
+      "content": "32894c62cf772259c5b1b1efa5cde22abb711fea"
+    },
+    "lib/amqp/tasks/assertQueues.js": {
+      "structural": "13653e5a07788ac62818efacc4268dd2cd4ecce4",
+      "content": "300fdf4dbd84ed2fbe8061eb99675dd37eb07db4"
+    },
+    "lib/amqp/tasks/assertVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "7970c054ce026e4ad8bb56fcb4cbd3fa3d9b379b"
+    },
+    "lib/amqp/tasks/bounceVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "37e9d325ad09a252682ab6cba0adc6537a74efb5"
+    },
+    "lib/amqp/tasks/checkExchanges.js": {
+      "structural": "be19e75620d43faebe68a6afb4f4058c3adf4c12",
+      "content": "ce91d1a86256b515e9edcbc130be9f4bcc62bc25"
+    },
+    "lib/amqp/tasks/checkQueues.js": {
+      "structural": "e1b0837a25f75220c55ed7349c7ae16f4c5cc2db",
+      "content": "ad6f64957c579ecce82abe2c1d1f78be773964fe"
+    },
+    "lib/amqp/tasks/checkVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d0d8a9cb72ef48be8b87742865623b04fe150af2"
+    },
+    "lib/amqp/tasks/closeChannels.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "e8feb43ca30fd89cedbf5644738dcb9354b74296"
+    },
+    "lib/amqp/tasks/closeConnection.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "8a6db67c3e9be2bbb60967242aca4b1033bbc754"
+    },
+    "lib/amqp/tasks/createChannels.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "21e229b14f44d330e9a993c7389ec3e15179dd77"
+    },
+    "lib/amqp/tasks/createConnection.js": {
+      "structural": "657b22e5fa4c44a84a178d45f2cb15dd6efa6eb0",
+      "content": "8a2a1a9df58843598bf9a0a3553ed4600e9f74fb"
+    },
+    "lib/amqp/tasks/deleteExchanges.js": {
+      "structural": "8684798a463fbcb190b293626da5228714ff9bee",
+      "content": "9af9c9f9413d4288f7e2b368d244d7803fd4d9b3"
+    },
+    "lib/amqp/tasks/deleteQueues.js": {
+      "structural": "6136e8d75dbc225b1397dfb3a35f3bde1c0113e3",
+      "content": "5e7e0b7327a5413e13ff5072bb78fdd9e2d00a19"
+    },
+    "lib/amqp/tasks/deleteVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "ae1a721a9c055b6a64468454822d29c5d3d548e1"
+    },
+    "lib/amqp/tasks/forewarnVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "dc244185a8926478a01551ceb6a64f3510a768af"
+    },
+    "lib/amqp/tasks/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "41aa6d488dedf09724cff233b58cf574d3a65769"
+    },
+    "lib/amqp/tasks/initCounters.js": {
+      "structural": "914b63d27ce3ec446f8dde992bd8c7104bebeb73",
+      "content": "441d49742f0c149042e0f2e6154c8e3f93232205"
+    },
+    "lib/amqp/tasks/initPublications.js": {
+      "structural": "8055a5948af94985a61352a5617940100f470955",
+      "content": "54e1e7e92ec844761702a3bf49c85e0897cbc883"
+    },
+    "lib/amqp/tasks/initShovels.js": {
+      "structural": "8ec59fc2c38389626efcd96b463842d230593efe",
+      "content": "be6bc308d5e1459d828a78879da37557ffbf623c"
+    },
+    "lib/amqp/tasks/initSubscriptions.js": {
+      "structural": "7f2b86b180961017effa73a154679465fc217cd8",
+      "content": "09285d761195411b513762931bd8f062f34bc9d2"
+    },
+    "lib/amqp/tasks/initVhosts.js": {
+      "structural": "35c4a9714715f7511e3b47c1fcbc75705151c410",
+      "content": "de19ee4affb5ea2f6a6cea3582fec84f0b774ca6"
+    },
+    "lib/amqp/tasks/nukeVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d2001bd18511058b4ad10b1e6703868c17dd14ad"
+    },
+    "lib/amqp/tasks/purgeQueues.js": {
+      "structural": "3a3b840b66a125cddf6525432f20d8d9bf8bb8a8",
+      "content": "7fc91367db016ae30c159f873eea4e62b885156a"
+    },
+    "lib/amqp/tasks/purgeVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "2b242d02f9c8133c357df628850a097a57ddf9c2"
+    },
+    "lib/amqp/tasks/shutdownVhost.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "c55abb2291a39ea19515cce2e60adaa348272d78"
+    },
+    "lib/amqp/Vhost.js": {
+      "structural": "a3153fa41dcba8e7ccc62eaa91b4f82fe2245a0f",
+      "content": "d8c547deca0d48a894a52e98f4ffbba3cceb34ab"
+    },
+    "lib/amqp/XDeath.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "f24f9588b60000dff9de2d9a8d19d562ec63e993"
+    },
+    "lib/backoff/exponential.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "6eb5c225f78721bc12c4934d2f9bc1ff157dd438"
+    },
+    "lib/backoff/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d5cb9c23c66d07d9b3276def70a5f9a1a22abc74"
+    },
+    "lib/backoff/linear.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "4500dd11802179ee82a24f9ddbaacb58ee9945b3"
+    },
+    "lib/config/baseline.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d542a5762b2ffda9e9c0f7e7115898df5cad7690"
+    },
+    "lib/config/configure.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "32b0d0a927a15c635e1ccddcd30fad8c107ea8fa"
+    },
+    "lib/config/defaults.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "3038d21e49a3f47469a000cf61a7d3227a6371f8"
+    },
+    "lib/config/fqn.js": {
+      "structural": "b7f7ec63da66276c82eec52b635193d441a6ec11",
+      "content": "31ffaea0a8640f9d2a3ef00904434e940d2a9a3a"
+    },
+    "lib/config/schema.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "cfd028cf6a2090aed413de95a60b25c38c005c54"
+    },
+    "lib/config/tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "8350a3186fd13907927253d29a86f88181bb0c91"
+    },
+    "lib/config/validate.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "56c3ebf332cb274dca221bc3ded65f4e5f6f5932"
+    },
+    "lib/counters/index.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "008249f54e4dbda74f3e58664a58ece18d33deec"
+    },
+    "lib/counters/inMemory.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "a4ada91287947626848d0dc5d00ac72c1c62b4ab"
+    },
+    "lib/counters/inMemoryCluster.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d1b138306eea8288abc7720d8f1ab9f2fbb75b67"
+    },
+    "lib/counters/stub.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "cdbea17d09b2443bf5bce31c6b99fbcf280c7d37"
+    },
+    "lib/management/Client.js": {
+      "structural": "131473af64c1b0f37ce0799e650b1c7833cd2c85",
+      "content": "1871f76c4b874381dd114874ac08fe86efd9efa2"
+    },
+    "lib/utils/setTimeoutUnref.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "4b91170c703eb587f7aba20815cdf3d90474629a"
+    },
+    "LICENSE.txt": {
+      "structural": "8b26a8dfbc8d252f3d74e996895d5f03e764e5eb",
+      "content": "d261dfab9f3a1dc0611e649910e9944fe59400e1"
+    },
+    "package-lock.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "557436eea4538d053a8294be13ea9c50d256c1ef"
+    },
+    "package.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "331817fb79ec7f0529e7b94804d21a3da939c416"
+    },
+    "README.md": {
+      "structural": "e467e7cd05eebc1a6d4564238aac0d58a6074ac0",
+      "content": "cd01e0f3c3e6c37c9f37c546da0e5a00ca863e0a"
+    },
+    "test/.eslintrc.json": {
+      "structural": "15e88f538b83a6edb0ab22df6f7372902cde8606",
+      "content": "76fbb71672bc65e19dfef34fcb14df2ad9c52517"
+    },
+    "test/backoff/exponential.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "8b1da47eb702ea27e740bc3005d52a64cca0071a"
+    },
+    "test/backoff/linear.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "80688bea170bab97c11f86773554ea800d29b8c6"
+    },
+    "test/broker.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "e3046ed8f282810e506c23bebdafb974b5f30ddf"
+    },
+    "test/brokerAsPromised.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "54fd4b78453607be932a6a840219fdc0d542a7ed"
+    },
+    "test/caches/inMemory.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "5651bd68b7124086b9cc1ea11b579a92e2dcfed2"
+    },
+    "test/config.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "dab29af376d5df3b8c4f34866b7b65f4ba7a86f9"
+    },
+    "test/defaults.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "d9c9df9b48a7178f1a0fa3b903d9cb7ced7d9d76"
+    },
+    "test/publications.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "fd9e3f03e78796e56fd0367ec5b620f5d8d705f0"
+    },
+    "test/publicationsAsPromised.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "1dcc54df2db72c45c02d9616a6c30ce0b1bec297"
+    },
+    "test/shovel.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "57201a94698ca525febbd6da619eceb07ad3d8d6"
+    },
+    "test/subscriptions.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "859de16229af98d251315a6664c7bba91cfbd5ca"
+    },
+    "test/subscriptionsAsPromised.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "ce1f001cf199ca8c630c25b9d403a424c7829bc9"
+    },
+    "test/utils/amqputils.js": {
+      "structural": "ca98caa4c9bf16ec1ca6721334207f4c273bc97a",
+      "content": "2899bbd0dd29a112648b5feabec78a6ce88878cb"
+    },
+    "test/validation.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "1197de4e720ed0c5cd1309c2986eb2179467254b"
+    },
+    "test/vhost.tests.js": {
+      "structural": "f2915f920117b6f00e9cd391af1c80d45ddea9a4",
+      "content": "815cac3d86d62a019aa1d5edc63979ff1c8e5341"
+    }
+  }
+}

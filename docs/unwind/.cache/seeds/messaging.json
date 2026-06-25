@@ -1,0 +1,331 @@
+{
+  "layer": "messaging",
+  "docDir": "messaging",
+  "count": 36,
+  "items": [
+    {
+      "id": "file:lib/amqp/Broker.js:Broker.js",
+      "kind": "file",
+      "name": "Broker.js",
+      "file": "lib/amqp/Broker.js",
+      "startLine": 1,
+      "endLine": 232,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/Broker.js#L1-L232"
+    },
+    {
+      "id": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "kind": "file",
+      "name": "BrokerAsPromised.js",
+      "file": "lib/amqp/BrokerAsPromised.js",
+      "startLine": 1,
+      "endLine": 87,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/BrokerAsPromised.js#L1-L87"
+    },
+    {
+      "id": "file:lib/amqp/Publication.js:Publication.js",
+      "kind": "file",
+      "name": "Publication.js",
+      "file": "lib/amqp/Publication.js",
+      "startLine": 1,
+      "endLine": 272,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/Publication.js#L1-L272"
+    },
+    {
+      "id": "file:lib/amqp/PublicationSession.js:PublicationSession.js",
+      "kind": "file",
+      "name": "PublicationSession.js",
+      "file": "lib/amqp/PublicationSession.js",
+      "startLine": 1,
+      "endLine": 45,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/PublicationSession.js#L1-L45"
+    },
+    {
+      "id": "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+      "kind": "file",
+      "name": "SubscriberError.js",
+      "file": "lib/amqp/SubscriberError.js",
+      "startLine": 1,
+      "endLine": 216,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/SubscriberError.js#L1-L216"
+    },
+    {
+      "id": "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+      "kind": "file",
+      "name": "SubscriberSession.js",
+      "file": "lib/amqp/SubscriberSession.js",
+      "startLine": 1,
+      "endLine": 229,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/SubscriberSession.js#L1-L229"
+    },
+    {
+      "id": "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+      "kind": "file",
+      "name": "SubscriberSessionAsPromised.js",
+      "file": "lib/amqp/SubscriberSessionAsPromised.js",
+      "startLine": 1,
+      "endLine": 32,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/SubscriberSessionAsPromised.js#L1-L32"
+    },
+    {
+      "id": "file:lib/amqp/Subscription.js:Subscription.js",
+      "kind": "file",
+      "name": "Subscription.js",
+      "file": "lib/amqp/Subscription.js",
+      "startLine": 1,
+      "endLine": 335,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/Subscription.js#L1-L335"
+    },
+    {
+      "id": "file:lib/amqp/tasks/applyBindings.js:applyBindings.js",
+      "kind": "file",
+      "name": "applyBindings.js",
+      "file": "lib/amqp/tasks/applyBindings.js",
+      "startLine": 1,
+      "endLine": 45,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/applyBindings.js#L1-L45"
+    },
+    {
+      "id": "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js",
+      "kind": "file",
+      "name": "assertExchanges.js",
+      "file": "lib/amqp/tasks/assertExchanges.js",
+      "startLine": 1,
+      "endLine": 27,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/assertExchanges.js#L1-L27"
+    },
+    {
+      "id": "file:lib/amqp/tasks/assertQueues.js:assertQueues.js",
+      "kind": "file",
+      "name": "assertQueues.js",
+      "file": "lib/amqp/tasks/assertQueues.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/assertQueues.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/assertVhost.js:assertVhost.js",
+      "kind": "file",
+      "name": "assertVhost.js",
+      "file": "lib/amqp/tasks/assertVhost.js",
+      "startLine": 1,
+      "endLine": 29,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/assertVhost.js#L1-L29"
+    },
+    {
+      "id": "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js",
+      "kind": "file",
+      "name": "bounceVhost.js",
+      "file": "lib/amqp/tasks/bounceVhost.js",
+      "startLine": 1,
+      "endLine": 6,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/bounceVhost.js#L1-L6"
+    },
+    {
+      "id": "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js",
+      "kind": "file",
+      "name": "checkExchanges.js",
+      "file": "lib/amqp/tasks/checkExchanges.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/checkExchanges.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/checkQueues.js:checkQueues.js",
+      "kind": "file",
+      "name": "checkQueues.js",
+      "file": "lib/amqp/tasks/checkQueues.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/checkQueues.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/checkVhost.js:checkVhost.js",
+      "kind": "file",
+      "name": "checkVhost.js",
+      "file": "lib/amqp/tasks/checkVhost.js",
+      "startLine": 1,
+      "endLine": 29,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/checkVhost.js#L1-L29"
+    },
+    {
+      "id": "file:lib/amqp/tasks/closeChannels.js:closeChannels.js",
+      "kind": "file",
+      "name": "closeChannels.js",
+      "file": "lib/amqp/tasks/closeChannels.js",
+      "startLine": 1,
+      "endLine": 18,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/closeChannels.js#L1-L18"
+    },
+    {
+      "id": "file:lib/amqp/tasks/closeConnection.js:closeConnection.js",
+      "kind": "file",
+      "name": "closeConnection.js",
+      "file": "lib/amqp/tasks/closeConnection.js",
+      "startLine": 1,
+      "endLine": 10,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/closeConnection.js#L1-L10"
+    },
+    {
+      "id": "file:lib/amqp/tasks/createChannels.js:createChannels.js",
+      "kind": "file",
+      "name": "createChannels.js",
+      "file": "lib/amqp/tasks/createChannels.js",
+      "startLine": 1,
+      "endLine": 19,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/createChannels.js#L1-L19"
+    },
+    {
+      "id": "file:lib/amqp/tasks/createConnection.js:createConnection.js",
+      "kind": "file",
+      "name": "createConnection.js",
+      "file": "lib/amqp/tasks/createConnection.js",
+      "startLine": 1,
+      "endLine": 75,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/createConnection.js#L1-L75"
+    },
+    {
+      "id": "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js",
+      "kind": "file",
+      "name": "deleteExchanges.js",
+      "file": "lib/amqp/tasks/deleteExchanges.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/deleteExchanges.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js",
+      "kind": "file",
+      "name": "deleteQueues.js",
+      "file": "lib/amqp/tasks/deleteQueues.js",
+      "startLine": 1,
+      "endLine": 22,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/deleteQueues.js#L1-L22"
+    },
+    {
+      "id": "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js",
+      "kind": "file",
+      "name": "deleteVhost.js",
+      "file": "lib/amqp/tasks/deleteVhost.js",
+      "startLine": 1,
+      "endLine": 30,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/deleteVhost.js#L1-L30"
+    },
+    {
+      "id": "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js",
+      "kind": "file",
+      "name": "forewarnVhost.js",
+      "file": "lib/amqp/tasks/forewarnVhost.js",
+      "startLine": 1,
+      "endLine": 6,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/forewarnVhost.js#L1-L6"
+    },
+    {
+      "id": "file:lib/amqp/tasks/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "lib/amqp/tasks/index.js",
+      "startLine": 1,
+      "endLine": 25,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/index.js#L1-L25"
+    },
+    {
+      "id": "file:lib/amqp/tasks/initCounters.js:initCounters.js",
+      "kind": "file",
+      "name": "initCounters.js",
+      "file": "lib/amqp/tasks/initCounters.js",
+      "startLine": 1,
+      "endLine": 25,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/initCounters.js#L1-L25"
+    },
+    {
+      "id": "file:lib/amqp/tasks/initPublications.js:initPublications.js",
+      "kind": "file",
+      "name": "initPublications.js",
+      "file": "lib/amqp/tasks/initPublications.js",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/initPublications.js#L1-L24"
+    },
+    {
+      "id": "file:lib/amqp/tasks/initShovels.js:initShovels.js",
+      "kind": "file",
+      "name": "initShovels.js",
+      "file": "lib/amqp/tasks/initShovels.js",
+      "startLine": 1,
+      "endLine": 42,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/initShovels.js#L1-L42"
+    },
+    {
+      "id": "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js",
+      "kind": "file",
+      "name": "initSubscriptions.js",
+      "file": "lib/amqp/tasks/initSubscriptions.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/initSubscriptions.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/initVhosts.js:initVhosts.js",
+      "kind": "file",
+      "name": "initVhosts.js",
+      "file": "lib/amqp/tasks/initVhosts.js",
+      "startLine": 1,
+      "endLine": 31,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/initVhosts.js#L1-L31"
+    },
+    {
+      "id": "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js",
+      "kind": "file",
+      "name": "nukeVhost.js",
+      "file": "lib/amqp/tasks/nukeVhost.js",
+      "startLine": 1,
+      "endLine": 6,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/nukeVhost.js#L1-L6"
+    },
+    {
+      "id": "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js",
+      "kind": "file",
+      "name": "purgeQueues.js",
+      "file": "lib/amqp/tasks/purgeQueues.js",
+      "startLine": 1,
+      "endLine": 23,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/purgeQueues.js#L1-L23"
+    },
+    {
+      "id": "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js",
+      "kind": "file",
+      "name": "purgeVhost.js",
+      "file": "lib/amqp/tasks/purgeVhost.js",
+      "startLine": 1,
+      "endLine": 6,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/purgeVhost.js#L1-L6"
+    },
+    {
+      "id": "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js",
+      "kind": "file",
+      "name": "shutdownVhost.js",
+      "file": "lib/amqp/tasks/shutdownVhost.js",
+      "startLine": 1,
+      "endLine": 6,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/tasks/shutdownVhost.js#L1-L6"
+    },
+    {
+      "id": "file:lib/amqp/Vhost.js:Vhost.js",
+      "kind": "file",
+      "name": "Vhost.js",
+      "file": "lib/amqp/Vhost.js",
+      "startLine": 1,
+      "endLine": 517,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/Vhost.js#L1-L517"
+    },
+    {
+      "id": "file:lib/amqp/XDeath.js:XDeath.js",
+      "kind": "file",
+      "name": "XDeath.js",
+      "file": "lib/amqp/XDeath.js",
+      "startLine": 1,
+      "endLine": 5,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/amqp/XDeath.js#L1-L5"
+    }
+  ]
+}

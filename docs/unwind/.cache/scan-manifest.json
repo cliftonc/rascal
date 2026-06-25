@@ -1,0 +1,4224 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-25T08:30:03.966Z",
+  "gitCommitHash": "22017c3a177f02bfdc5032e5842aa1a066b027ff",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/cliftonc/rascal",
+    "branch": "master",
+    "linkFormat": "https://github.com/cliftonc/rascal/blob/master/{path}#L{start}-L{end}"
+  },
+  "project": {
+    "name": "rascal",
+    "languages": [
+      "javascript",
+      "json",
+      "markdown",
+      "txt",
+      "unknown",
+      "yaml"
+    ],
+    "estimatedComplexity": "moderate"
+  },
+  "files": [
+    {
+      "path": "_config.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "sizeLines": 1,
+      "contentHash": "1fa7263bb8afada463f324713e7ff29fbe6a2dd9",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".eslintignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "sizeLines": 2,
+      "contentHash": "2195214c9ec24735e423f180615df9f4db2ab404",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".eslintrc.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 26,
+      "contentHash": "f6e39100f11f6752f9d86d8c7943b5eac7d2aa1f",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".github/workflows/node-js-ci.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "sizeLines": 24,
+      "contentHash": "22e9e65873d454d3fbbb86e9d0bb597872349982",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".github/workflows/node-js-publish.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "sizeLines": 37,
+      "contentHash": "c590a0e1d78fc8ae494b3aa70f099f4a66f71e1f",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".husky/pre-commit",
+      "language": "unknown",
+      "fileCategory": "code",
+      "sizeLines": 4,
+      "contentHash": "a58b717cb5d615252ed05ef95abf5b257e00d5f3",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".npmignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "sizeLines": 11,
+      "contentHash": "706347f5f892619d20fc20e08684e4f7cc107fe2",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": ".npmrc",
+      "language": "unknown",
+      "fileCategory": "code",
+      "sizeLines": 1,
+      "contentHash": "93d2a1705ed18e3ec0d3a912577d22619508c748",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "sizeLines": 811,
+      "contentHash": "8032147214c955a3ed8da342667d7312d64887f5",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/advanced/cluster.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 12,
+      "contentHash": "9c1bc5c30830e34fca437bdba330a4101a48a9ac",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./index",
+            "specifiers": [],
+            "line": 11
+          },
+          {
+            "source": "cluster",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/advanced/config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 202,
+      "contentHash": "f4fd4fe7ac519e4bd6f67799d30846e503db1127",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/advanced/handlers/deleteUser.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 19,
+      "contentHash": "3349e530a81d524cf4c6f446979f0c74720d2b8d",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "chalk",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/advanced/handlers/saveUser.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 35,
+      "contentHash": "dc6ea9005b8684d3b7fe67ef0b095ace9573c54a",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "chalk",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/advanced/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 101,
+      "contentHash": "aa4ee306d25603234a780dafe5756cc0be40411b",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "randomInt",
+            "startLine": 94,
+            "endLine": 96,
+            "params": [
+              "max"
+            ],
+            "exported": false
+          },
+          {
+            "name": "bail",
+            "startLine": 98,
+            "endLine": 101,
+            "params": [
+              "err"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "Chance",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/busy-publisher/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 34,
+      "contentHash": "3543877ab19ff5002bda9148f0fcbbbb7739be89",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/busy-publisher/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 32,
+      "contentHash": "4fa7986b4bbc4ab047589e968d1d2bdfd39a4a48",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "random-readable",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/busy-publisher/package-lock.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 13,
+      "contentHash": "cf28bdae96e8c3e01aca6666c1a4d2174164b5a7",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/busy-publisher/package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 14,
+      "contentHash": "69f22f78f6b2b31d4db0542198789395aa40ee23",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/default-exchange/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 24,
+      "contentHash": "87a4d5f35ea2be6dd44ddb3f6d9fe32507527191",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/default-exchange/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 24,
+      "contentHash": "dd8b858b86c56e04d38c01104c739bc24bf6d5fc",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/mocha/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 21,
+      "contentHash": "db31cd3362b3765e4ff5462b1bc20a2421400dc6",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/mocha/test.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 40,
+      "contentHash": "a59a149915a4d9f0114f35087226d4135a0b9656",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./config.js",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/promises/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 29,
+      "contentHash": "a62e23e6c72489d6264523cae00155430fb90b59",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/promises/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 32,
+      "contentHash": "e89cbf526d2684d77dcd1029a485c10a64feda13",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/simple/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 37,
+      "contentHash": "00c6db7b7ce5c960f62c69bdcfe0af7d938a0c66",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/simple/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 24,
+      "contentHash": "b56dcbd6f040da0396a651457279930a5378985d",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/package-lock.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 13,
+      "contentHash": "c87895aa66b898155068df0f76d23483b679a443",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 14,
+      "contentHash": "9948ecaf34bc414effc53d702c43ed919067f207",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/publisher-config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 37,
+      "contentHash": "daf259b2f0278c4c3a2240fe997818ec681e2134",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/publisher.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 38,
+      "contentHash": "8512b9e2518bd6420d91763851b7f09164e018d4",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "random-readable",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./publisher-config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/subscriber-config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 28,
+      "contentHash": "8b794dd780acf6be0980391e39f9678cde4b108a",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "examples/streams/subscriber.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 25,
+      "contentHash": "5dfc19e4cf469ab12e743856bbfee235a5dafcb8",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./subscriber-config",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "../..",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 24,
+      "contentHash": "c81ec33999b857fa5b7248913ac963a3bf29b751",
+      "rebuildLayer": "api",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./lib/counters",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "./lib/amqp/BrokerAsPromised",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "./lib/amqp/Broker",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "./lib/config/tests",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./lib/config/defaults",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/Broker.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 232,
+      "contentHash": "97ea2f764193a20dcaf594c03837dedfbd2ac9bb",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "Broker",
+            "startLine": 38,
+            "endLine": 232,
+            "params": [
+              "config",
+              "components"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../counters/inMemoryCluster",
+            "specifiers": [],
+            "line": 15
+          },
+          {
+            "source": "../counters/inMemory",
+            "specifiers": [],
+            "line": 14
+          },
+          {
+            "source": "../counters/stub",
+            "specifiers": [],
+            "line": 13
+          },
+          {
+            "source": "../config/fqn",
+            "specifiers": [],
+            "line": 10
+          },
+          {
+            "source": "../config/validate",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "../config/configure",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "./tasks",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/BrokerAsPromised.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 87,
+      "contentHash": "a83c41df188827b951a893a1b3b2cad2eeebb4eb",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "BrokerAsPromised",
+            "startLine": 32,
+            "endLine": 87,
+            "params": [
+              "broker"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./SubscriberSessionAsPromised",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "./Broker",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "forward-emitter",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/Publication.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 272,
+      "contentHash": "3109964a21517bfab425dce3be3420b96ec3c937",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "Publication",
+            "startLine": 25,
+            "endLine": 167,
+            "params": [
+              "vhost",
+              "borrowChannelFn",
+              "returnChannelFn",
+              "destroyChannelFn",
+              "publishFn",
+              "config"
+            ],
+            "exported": false
+          },
+          {
+            "name": "makeDisconnectionHandler",
+            "startLine": 169,
+            "endLine": 177,
+            "params": [
+              "channel",
+              "messageId",
+              "session",
+              "config"
+            ],
+            "exported": false
+          },
+          {
+            "name": "addListeners",
+            "startLine": 179,
+            "endLine": 184,
+            "params": [
+              "channel",
+              "disconnectionHandler",
+              "returnHandler"
+            ],
+            "exported": false
+          },
+          {
+            "name": "removeListeners",
+            "startLine": 186,
+            "endLine": 192,
+            "params": [
+              "channel",
+              "disconnectionHandler",
+              "returnHandler"
+            ],
+            "exported": false
+          },
+          {
+            "name": "publishToExchange",
+            "startLine": 194,
+            "endLine": 202,
+            "params": [
+              "channel",
+              "content",
+              "config",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "publishToConfirmExchange",
+            "startLine": 204,
+            "endLine": 212,
+            "params": [
+              "channel",
+              "content",
+              "config",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "sendToQueue",
+            "startLine": 214,
+            "endLine": 222,
+            "params": [
+              "channel",
+              "content",
+              "config",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "sendToConfirmQueue",
+            "startLine": 224,
+            "endLine": 232,
+            "params": [
+              "channel",
+              "content",
+              "config",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "publishNoConfirm",
+            "startLine": 234,
+            "endLine": 242,
+            "params": [
+              "fn",
+              "channel",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "publishAndConfirm",
+            "startLine": 244,
+            "endLine": 256,
+            "params": [
+              "fn",
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "setConfirmationTimeout",
+            "startLine": 258,
+            "endLine": 262,
+            "params": [
+              "timeout",
+              "destination",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "handleChannelError",
+            "startLine": 264,
+            "endLine": 267,
+            "params": [
+              "borked",
+              "messageId",
+              "emitter",
+              "config",
+              "err"
+            ],
+            "exported": false
+          },
+          {
+            "name": "handleChannelClose",
+            "startLine": 269,
+            "endLine": 272,
+            "params": [
+              "borked",
+              "messageId",
+              "emitter",
+              "config"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../utils/setTimeoutUnref",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "./PublicationSession",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "crypto",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/PublicationSession.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 45,
+      "contentHash": "fbb9695b8e1091388a13392646b893ae62420f4f",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "PublicationSession",
+            "startLine": 9,
+            "endLine": 45,
+            "params": [
+              "vhost",
+              "messageId"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/SubscriberError.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 216,
+      "contentHash": "33be92e8cd8e89d5d8b1e99b13952ee287336b7b",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./XDeath",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "../utils/setTimeoutUnref",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/SubscriberSession.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 229,
+      "contentHash": "40335cb8f82fba1f8fb9f7d2aa31465aa415b22e",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "SubscriberSession",
+            "startLine": 12,
+            "endLine": 229,
+            "params": [
+              "sequentialChannelOperations",
+              "config"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../utils/setTimeoutUnref",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/SubscriberSessionAsPromised.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 32,
+      "contentHash": "eb74dabb7a90119b1efb99f7dc018fe65e9db059",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "SubscriberSessionAsPromised",
+            "startLine": 9,
+            "endLine": 32,
+            "params": [
+              "session"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "forward-emitter",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/Subscription.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 335,
+      "contentHash": "53379e2cd6b2d24ddf68bd42ac2ac8851b27a031",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "Subscription",
+            "startLine": 19,
+            "endLine": 335,
+            "params": [
+              "broker",
+              "vhost",
+              "subscriptionConfig",
+              "counter"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./XDeath",
+            "specifiers": [],
+            "line": 11
+          },
+          {
+            "source": "../utils/setTimeoutUnref",
+            "specifiers": [],
+            "line": 10
+          },
+          {
+            "source": "../backoff",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "./SubscriberError",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "./SubscriberSession",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "safe-json-parse/callback",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "crypto",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/applyBindings.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 45,
+      "contentHash": "16105399ec57199e8e22a2cdca967c66d50dfdca",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "bindQueue",
+            "startLine": 25,
+            "endLine": 34,
+            "params": [
+              "config",
+              "channel",
+              "binding",
+              "next"
+            ],
+            "exported": false
+          },
+          {
+            "name": "bindExchange",
+            "startLine": 36,
+            "endLine": 45,
+            "params": [
+              "config",
+              "channel",
+              "binding",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/assertExchanges.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 27,
+      "contentHash": "32894c62cf772259c5b1b1efa5cde22abb711fea",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "assertExchange",
+            "startLine": 19,
+            "endLine": 27,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/assertQueues.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "300fdf4dbd84ed2fbe8061eb99675dd37eb07db4",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "assertQueue",
+            "startLine": 19,
+            "endLine": 23,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/assertVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 29,
+      "contentHash": "7970c054ce026e4ad8bb56fcb4cbd3fa3d9b379b",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../management/Client",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/bounceVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 6,
+      "contentHash": "37e9d325ad09a252682ab6cba0adc6537a74efb5",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/checkExchanges.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "ce91d1a86256b515e9edcbc130be9f4bcc62bc25",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "checkExchange",
+            "startLine": 19,
+            "endLine": 23,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/checkQueues.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "ad6f64957c579ecce82abe2c1d1f78be773964fe",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "checkQueue",
+            "startLine": 19,
+            "endLine": 23,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/checkVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 29,
+      "contentHash": "d0d8a9cb72ef48be8b87742865623b04fe150af2",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../management/Client",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/closeChannels.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 18,
+      "contentHash": "e8feb43ca30fd89cedbf5644738dcb9354b74296",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/closeConnection.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 10,
+      "contentHash": "8a6db67c3e9be2bbb60967242aca4b1033bbc754",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/createChannels.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 19,
+      "contentHash": "21e229b14f44d330e9a993c7389ec3e15179dd77",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/createConnection.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 75,
+      "contentHash": "8a2a1a9df58843598bf9a0a3553ed4600e9f74fb",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "connect",
+            "startLine": 31,
+            "endLine": 75,
+            "params": [
+              "connectionConfig",
+              "cb"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/deleteExchanges.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "9af9c9f9413d4288f7e2b368d244d7803fd4d9b3",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "deleteExchange",
+            "startLine": 19,
+            "endLine": 23,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/deleteQueues.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 22,
+      "contentHash": "5e7e0b7327a5413e13ff5072bb78fdd9e2d00a19",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "deleteQueue",
+            "startLine": 19,
+            "endLine": 22,
+            "params": [
+              "channel",
+              "config",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/deleteVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 30,
+      "contentHash": "ae1a721a9c055b6a64468454822d29c5d3d548e1",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../management/Client",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/forewarnVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 6,
+      "contentHash": "dc244185a8926478a01551ceb6a64f3510a768af",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 25,
+      "contentHash": "41aa6d488dedf09724cff233b58cf574d3a65769",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./shutdownVhost",
+            "specifiers": [],
+            "line": 25
+          },
+          {
+            "source": "./forewarnVhost",
+            "specifiers": [],
+            "line": 24
+          },
+          {
+            "source": "./purgeVhost",
+            "specifiers": [],
+            "line": 23
+          },
+          {
+            "source": "./purgeQueues",
+            "specifiers": [],
+            "line": 22
+          },
+          {
+            "source": "./nukeVhost",
+            "specifiers": [],
+            "line": 21
+          },
+          {
+            "source": "./initVhosts",
+            "specifiers": [],
+            "line": 20
+          },
+          {
+            "source": "./initSubscriptions",
+            "specifiers": [],
+            "line": 19
+          },
+          {
+            "source": "./initShovels",
+            "specifiers": [],
+            "line": 18
+          },
+          {
+            "source": "./initPublications",
+            "specifiers": [],
+            "line": 17
+          },
+          {
+            "source": "./initCounters",
+            "specifiers": [],
+            "line": 16
+          },
+          {
+            "source": "./deleteVhost",
+            "specifiers": [],
+            "line": 15
+          },
+          {
+            "source": "./deleteQueues",
+            "specifiers": [],
+            "line": 14
+          },
+          {
+            "source": "./deleteExchanges",
+            "specifiers": [],
+            "line": 13
+          },
+          {
+            "source": "./createConnection",
+            "specifiers": [],
+            "line": 12
+          },
+          {
+            "source": "./createChannels",
+            "specifiers": [],
+            "line": 11
+          },
+          {
+            "source": "./closeConnection",
+            "specifiers": [],
+            "line": 10
+          },
+          {
+            "source": "./closeChannels",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "./checkVhost",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "./checkQueues",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "./checkExchanges",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "./bounceVhost",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "./assertVhost",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "./assertQueues",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./assertExchanges",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "./applyBindings",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/initCounters.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 25,
+      "contentHash": "441d49742f0c149042e0f2e6154c8e3f93232205",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "initCounter",
+            "startLine": 22,
+            "endLine": 25,
+            "params": [
+              "config",
+              "ctx",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/initPublications.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 24,
+      "contentHash": "54e1e7e92ec844761702a3bf49c85e0897cbc883",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "initPublication",
+            "startLine": 22,
+            "endLine": 24,
+            "params": [
+              "config",
+              "ctx",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../Publication",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/initShovels.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 42,
+      "contentHash": "be6bc308d5e1459d828a78879da37557ffbf623c",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "initShovel",
+            "startLine": 17,
+            "endLine": 42,
+            "params": [
+              "config",
+              "ctx",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/initSubscriptions.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "09285d761195411b513762931bd8f062f34bc9d2",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "initSubscription",
+            "startLine": 21,
+            "endLine": 23,
+            "params": [
+              "config",
+              "ctx",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../Subscription",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/initVhosts.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 31,
+      "contentHash": "de19ee4affb5ea2f6a6cea3582fec84f0b774ca6",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "initVhost",
+            "startLine": 29,
+            "endLine": 31,
+            "params": [
+              "config",
+              "components",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../Vhost",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "forward-emitter",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/nukeVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 6,
+      "contentHash": "d2001bd18511058b4ad10b1e6703868c17dd14ad",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/purgeQueues.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 23,
+      "contentHash": "7fc91367db016ae30c159f873eea4e62b885156a",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "purgeQueue",
+            "startLine": 19,
+            "endLine": 23,
+            "params": [
+              "channel",
+              "config",
+              "ctx",
+              "next"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/purgeVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 6,
+      "contentHash": "2b242d02f9c8133c357df628850a097a57ddf9c2",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/tasks/shutdownVhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 6,
+      "contentHash": "c55abb2291a39ea19515cce2e60adaa348272d78",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/Vhost.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 517,
+      "contentHash": "d8c547deca0d48a894a52e98f4ffbba3cceb34ab",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "Vhost",
+            "startLine": 21,
+            "endLine": 517,
+            "params": [
+              "vhostConfig",
+              "components"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../utils/setTimeoutUnref",
+            "specifiers": [],
+            "line": 11
+          },
+          {
+            "source": "../backoff",
+            "specifiers": [],
+            "line": 10
+          },
+          {
+            "source": "./tasks",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "generic-pool",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "events",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/amqp/XDeath.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 5,
+      "contentHash": "f24f9588b60000dff9de2d9a8d19d562ec63e993",
+      "rebuildLayer": "messaging",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/backoff/exponential.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 27,
+      "contentHash": "6eb5c225f78721bc12c4934d2f9bc1ff157dd438",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/backoff/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 13,
+      "contentHash": "d5cb9c23c66d07d9b3276def70a5f9a1a22abc74",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./linear",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "./exponential",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/backoff/linear.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 11,
+      "contentHash": "4500dd11802179ee82a24f9ddbaacb58ee9945b3",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/baseline.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 110,
+      "contentHash": "d542a5762b2ffda9e9c0f7e7115898df5cad7690",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/configure.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 367,
+      "contentHash": "32b0d0a927a15c635e1ccddcd30fad8c107ea8fa",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./fqn",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "./baseline",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "xregexp",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "url",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/defaults.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 21,
+      "contentHash": "3038d21e49a3f47469a000cf61a7d3227a6371f8",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/fqn.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 20,
+      "contentHash": "31ffaea0a8640f9d2a3ef00904434e940d2a9a3a",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "qualify",
+            "startLine": 7,
+            "endLine": 12,
+            "params": [
+              "name",
+              "namespace",
+              "unique"
+            ],
+            "exported": false
+          },
+          {
+            "name": "prefix",
+            "startLine": 14,
+            "endLine": 16,
+            "params": [
+              "text",
+              "name",
+              "separator"
+            ],
+            "exported": false
+          },
+          {
+            "name": "suffix",
+            "startLine": 18,
+            "endLine": 20,
+            "params": [
+              "text",
+              "name",
+              "separator"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/schema.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 693,
+      "contentHash": "cfd028cf6a2090aed413de95a60b25c38c005c54",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 44,
+      "contentHash": "8350a3186fd13907927253d29a86f88181bb0c91",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./defaults",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/config/validate.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 189,
+      "contentHash": "56c3ebf332cb274dca221bc3ded65f4e5f6f5932",
+      "rebuildLayer": "domain",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/counters/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 9,
+      "contentHash": "008249f54e4dbda74f3e58664a58ece18d33deec",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./inMemoryCluster",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "./inMemory",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "./stub",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/counters/inMemory.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 15,
+      "contentHash": "a4ada91287947626848d0dc5d00ac72c1c62b4ab",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "lru-cache",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/counters/inMemoryCluster.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 71,
+      "contentHash": "d1b138306eea8288abc7720d8f1ab9f2fbb75b67",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./inMemory",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "stashback",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "cluster",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/counters/stub.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 7,
+      "contentHash": "cdbea17d09b2443bf5bce31c6b99fbcf280c7d37",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/management/Client.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 56,
+      "contentHash": "1871f76c4b874381dd114874ac08fe86efd9efa2",
+      "rebuildLayer": "api",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "Client",
+            "startLine": 5,
+            "endLine": 54,
+            "params": [
+              "agent"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "debug",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "http",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "lib/utils/setTimeoutUnref.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 5,
+      "contentHash": "4b91170c703eb587f7aba20815cdf3d90474629a",
+      "rebuildLayer": "service",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "LICENSE.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "sizeLines": 22,
+      "contentHash": "d261dfab9f3a1dc0611e649910e9944fe59400e1",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "package-lock.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 4863,
+      "contentHash": "557436eea4538d053a8294be13ea9c50d256c1ef",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 69,
+      "contentHash": "331817fb79ec7f0529e7b94804d21a3da939c416",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "sizeLines": 1924,
+      "contentHash": "cd01e0f3c3e6c37c9f37c546da0e5a00ca863e0a",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/.eslintrc.json",
+      "language": "json",
+      "fileCategory": "config",
+      "sizeLines": 18,
+      "contentHash": "76fbb71672bc65e19dfef34fcb14df2ad9c52517",
+      "rebuildLayer": "infrastructure",
+      "symbolsExtracted": false,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/backoff/exponential.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 69,
+      "contentHash": "8b1da47eb702ea27e740bc3005d52a64cca0071a",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../lib/backoff/exponential",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/backoff/linear.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 28,
+      "contentHash": "80688bea170bab97c11f86773554ea800d29b8c6",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../lib/backoff/linear",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/broker.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 540,
+      "contentHash": "e3046ed8f282810e506c23bebdafb974b5f30ddf",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 10
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "random-readable",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "http",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/brokerAsPromised.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 247,
+      "contentHash": "54fd4b78453607be932a6a840219fdc0d542a7ed",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/caches/inMemory.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 50,
+      "contentHash": "5651bd68b7124086b9cc1ea11b579a92e2dcfed2",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../../lib/counters/inMemory",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/config.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 2105,
+      "contentHash": "dab29af376d5df3b8c4f34866b7b65f4ba7a86f9",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../lib/config/configure",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "url",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/defaults.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 594,
+      "contentHash": "d9c9df9b48a7178f1a0fa3b903d9cb7ced7d9d76",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../lib/config/configure",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/publications.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 916,
+      "contentHash": "fd9e3f03e78796e56fd0367ec5b620f5d8d705f0",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/publicationsAsPromised.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 582,
+      "contentHash": "1dcc54df2db72c45c02d9616a6c30ce0b1bec297",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/shovel.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 104,
+      "contentHash": "57201a94698ca525febbd6da619eceb07ad3d8d6",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/subscriptions.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 2952,
+      "contentHash": "859de16229af98d251315a6664c7bba91cfbd5ca",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/subscriptionsAsPromised.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 2135,
+      "contentHash": "ce1f001cf199ca8c630c25b9d403a424c7829bc9",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/utils/amqputils.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 162,
+      "contentHash": "2899bbd0dd29a112648b5feabec78a6ce88878cb",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [
+          {
+            "name": "init",
+            "startLine": 10,
+            "endLine": 162,
+            "params": [
+              "connection"
+            ],
+            "exported": false
+          }
+        ],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "http",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/validation.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 924,
+      "contentHash": "1197de4e720ed0c5cd1309c2986eb2179467254b",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "../lib/config/validate",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    },
+    {
+      "path": "test/vhost.tests.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "sizeLines": 287,
+      "contentHash": "815cac3d86d62a019aa1d5edc63979ff1c8e5341",
+      "rebuildLayer": "tests",
+      "symbolsExtracted": true,
+      "symbols": {
+        "functions": [],
+        "classes": [],
+        "exports": [],
+        "imports": [
+          {
+            "source": "./utils/amqputils",
+            "specifiers": [],
+            "line": 9
+          },
+          {
+            "source": "..",
+            "specifiers": [],
+            "line": 8
+          },
+          {
+            "source": "../lib/config/tests",
+            "specifiers": [],
+            "line": 7
+          },
+          {
+            "source": "uuid",
+            "specifiers": [],
+            "line": 6
+          },
+          {
+            "source": "util",
+            "specifiers": [],
+            "line": 5
+          },
+          {
+            "source": "amqplib/callback_api",
+            "specifiers": [],
+            "line": 4
+          },
+          {
+            "source": "lodash",
+            "specifiers": [],
+            "line": 3
+          },
+          {
+            "source": "async",
+            "specifiers": [],
+            "line": 2
+          },
+          {
+            "source": "assert",
+            "specifiers": [],
+            "line": 1
+          }
+        ],
+        "definitions": [],
+        "endpoints": []
+      }
+    }
+  ],
+  "importMap": {
+    "examples/advanced/cluster.js": [
+      "examples/advanced/index.js"
+    ],
+    "examples/advanced/index.js": [
+      "examples/advanced/config.js"
+    ],
+    "index.js": [
+      "lib/amqp/Broker.js",
+      "lib/amqp/BrokerAsPromised.js",
+      "lib/config/defaults.js",
+      "lib/config/tests.js",
+      "lib/counters/index.js"
+    ],
+    "lib/amqp/Broker.js": [
+      "lib/amqp/tasks/index.js",
+      "lib/config/configure.js",
+      "lib/config/fqn.js",
+      "lib/config/validate.js",
+      "lib/counters/inMemory.js",
+      "lib/counters/inMemoryCluster.js",
+      "lib/counters/stub.js"
+    ],
+    "lib/amqp/BrokerAsPromised.js": [
+      "lib/amqp/Broker.js",
+      "lib/amqp/SubscriberSessionAsPromised.js"
+    ],
+    "lib/amqp/Publication.js": [
+      "lib/amqp/PublicationSession.js",
+      "lib/utils/setTimeoutUnref.js"
+    ],
+    "lib/amqp/SubscriberError.js": [
+      "lib/amqp/XDeath.js",
+      "lib/utils/setTimeoutUnref.js"
+    ],
+    "lib/amqp/SubscriberSession.js": [
+      "lib/utils/setTimeoutUnref.js"
+    ],
+    "lib/amqp/Subscription.js": [
+      "lib/amqp/SubscriberError.js",
+      "lib/amqp/SubscriberSession.js",
+      "lib/amqp/XDeath.js",
+      "lib/backoff/index.js",
+      "lib/utils/setTimeoutUnref.js"
+    ],
+    "lib/amqp/tasks/assertVhost.js": [
+      "lib/management/Client.js"
+    ],
+    "lib/amqp/tasks/checkVhost.js": [
+      "lib/management/Client.js"
+    ],
+    "lib/amqp/tasks/deleteVhost.js": [
+      "lib/management/Client.js"
+    ],
+    "lib/amqp/tasks/index.js": [
+      "lib/amqp/tasks/applyBindings.js",
+      "lib/amqp/tasks/assertExchanges.js",
+      "lib/amqp/tasks/assertQueues.js",
+      "lib/amqp/tasks/assertVhost.js",
+      "lib/amqp/tasks/bounceVhost.js",
+      "lib/amqp/tasks/checkExchanges.js",
+      "lib/amqp/tasks/checkQueues.js",
+      "lib/amqp/tasks/checkVhost.js",
+      "lib/amqp/tasks/closeChannels.js",
+      "lib/amqp/tasks/closeConnection.js",
+      "lib/amqp/tasks/createChannels.js",
+      "lib/amqp/tasks/createConnection.js",
+      "lib/amqp/tasks/deleteExchanges.js",
+      "lib/amqp/tasks/deleteQueues.js",
+      "lib/amqp/tasks/deleteVhost.js",
+      "lib/amqp/tasks/forewarnVhost.js",
+      "lib/amqp/tasks/initCounters.js",
+      "lib/amqp/tasks/initPublications.js",
+      "lib/amqp/tasks/initShovels.js",
+      "lib/amqp/tasks/initSubscriptions.js",
+      "lib/amqp/tasks/initVhosts.js",
+      "lib/amqp/tasks/nukeVhost.js",
+      "lib/amqp/tasks/purgeQueues.js",
+      "lib/amqp/tasks/purgeVhost.js",
+      "lib/amqp/tasks/shutdownVhost.js"
+    ],
+    "lib/amqp/tasks/initPublications.js": [
+      "lib/amqp/Publication.js"
+    ],
+    "lib/amqp/tasks/initSubscriptions.js": [
+      "lib/amqp/Subscription.js"
+    ],
+    "lib/amqp/tasks/initVhosts.js": [
+      "lib/amqp/Vhost.js"
+    ],
+    "lib/amqp/Vhost.js": [
+      "lib/amqp/tasks/index.js",
+      "lib/backoff/index.js",
+      "lib/utils/setTimeoutUnref.js"
+    ],
+    "lib/backoff/index.js": [
+      "lib/backoff/exponential.js",
+      "lib/backoff/linear.js"
+    ],
+    "lib/config/configure.js": [
+      "lib/config/baseline.js",
+      "lib/config/fqn.js"
+    ],
+    "lib/config/tests.js": [
+      "lib/config/defaults.js"
+    ],
+    "lib/counters/index.js": [
+      "lib/counters/inMemory.js",
+      "lib/counters/inMemoryCluster.js",
+      "lib/counters/stub.js"
+    ],
+    "lib/counters/inMemoryCluster.js": [
+      "lib/counters/inMemory.js"
+    ],
+    "test/backoff/exponential.tests.js": [
+      "lib/backoff/exponential.js"
+    ],
+    "test/backoff/linear.tests.js": [
+      "lib/backoff/linear.js"
+    ],
+    "test/broker.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ],
+    "test/brokerAsPromised.tests.js": [
+      "lib/config/tests.js"
+    ],
+    "test/caches/inMemory.tests.js": [
+      "lib/counters/inMemory.js"
+    ],
+    "test/config.tests.js": [
+      "lib/config/configure.js"
+    ],
+    "test/defaults.tests.js": [
+      "lib/config/configure.js"
+    ],
+    "test/publications.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ],
+    "test/publicationsAsPromised.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ],
+    "test/shovel.tests.js": [
+      "lib/config/tests.js"
+    ],
+    "test/subscriptions.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ],
+    "test/subscriptionsAsPromised.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ],
+    "test/validation.tests.js": [
+      "lib/config/validate.js"
+    ],
+    "test/vhost.tests.js": [
+      "lib/config/tests.js",
+      "test/utils/amqputils.js"
+    ]
+  },
+  "layerIndex": {
+    "infrastructure": {
+      "files": [
+        "_config.yml",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".github/workflows/node-js-ci.yml",
+        ".github/workflows/node-js-publish.yml",
+        ".husky/pre-commit",
+        ".npmignore",
+        ".npmrc",
+        "CHANGELOG.md",
+        "examples/advanced/cluster.js",
+        "examples/advanced/config.js",
+        "examples/advanced/handlers/deleteUser.js",
+        "examples/advanced/handlers/saveUser.js",
+        "examples/advanced/index.js",
+        "examples/busy-publisher/config.json",
+        "examples/busy-publisher/index.js",
+        "examples/busy-publisher/package-lock.json",
+        "examples/busy-publisher/package.json",
+        "examples/default-exchange/config.json",
+        "examples/default-exchange/index.js",
+        "examples/mocha/config.json",
+        "examples/mocha/test.js",
+        "examples/promises/config.json",
+        "examples/promises/index.js",
+        "examples/simple/config.json",
+        "examples/simple/index.js",
+        "examples/streams/package-lock.json",
+        "examples/streams/package.json",
+        "examples/streams/publisher-config.json",
+        "examples/streams/publisher.js",
+        "examples/streams/subscriber-config.json",
+        "examples/streams/subscriber.js",
+        "lib/config/schema.json",
+        "LICENSE.txt",
+        "package-lock.json",
+        "package.json",
+        "README.md",
+        "test/.eslintrc.json"
+      ],
+      "symbolIds": []
+    },
+    "api": {
+      "files": [
+        "index.js",
+        "lib/management/Client.js"
+      ],
+      "symbolIds": []
+    },
+    "messaging": {
+      "files": [
+        "lib/amqp/Broker.js",
+        "lib/amqp/BrokerAsPromised.js",
+        "lib/amqp/Publication.js",
+        "lib/amqp/PublicationSession.js",
+        "lib/amqp/SubscriberError.js",
+        "lib/amqp/SubscriberSession.js",
+        "lib/amqp/SubscriberSessionAsPromised.js",
+        "lib/amqp/Subscription.js",
+        "lib/amqp/tasks/applyBindings.js",
+        "lib/amqp/tasks/assertExchanges.js",
+        "lib/amqp/tasks/assertQueues.js",
+        "lib/amqp/tasks/assertVhost.js",
+        "lib/amqp/tasks/bounceVhost.js",
+        "lib/amqp/tasks/checkExchanges.js",
+        "lib/amqp/tasks/checkQueues.js",
+        "lib/amqp/tasks/checkVhost.js",
+        "lib/amqp/tasks/closeChannels.js",
+        "lib/amqp/tasks/closeConnection.js",
+        "lib/amqp/tasks/createChannels.js",
+        "lib/amqp/tasks/createConnection.js",
+        "lib/amqp/tasks/deleteExchanges.js",
+        "lib/amqp/tasks/deleteQueues.js",
+        "lib/amqp/tasks/deleteVhost.js",
+        "lib/amqp/tasks/forewarnVhost.js",
+        "lib/amqp/tasks/index.js",
+        "lib/amqp/tasks/initCounters.js",
+        "lib/amqp/tasks/initPublications.js",
+        "lib/amqp/tasks/initShovels.js",
+        "lib/amqp/tasks/initSubscriptions.js",
+        "lib/amqp/tasks/initVhosts.js",
+        "lib/amqp/tasks/nukeVhost.js",
+        "lib/amqp/tasks/purgeQueues.js",
+        "lib/amqp/tasks/purgeVhost.js",
+        "lib/amqp/tasks/shutdownVhost.js",
+        "lib/amqp/Vhost.js",
+        "lib/amqp/XDeath.js"
+      ],
+      "symbolIds": []
+    },
+    "service": {
+      "files": [
+        "lib/backoff/exponential.js",
+        "lib/backoff/index.js",
+        "lib/backoff/linear.js",
+        "lib/counters/index.js",
+        "lib/counters/inMemory.js",
+        "lib/counters/inMemoryCluster.js",
+        "lib/counters/stub.js",
+        "lib/utils/setTimeoutUnref.js"
+      ],
+      "symbolIds": []
+    },
+    "domain": {
+      "files": [
+        "lib/config/baseline.js",
+        "lib/config/configure.js",
+        "lib/config/defaults.js",
+        "lib/config/fqn.js",
+        "lib/config/tests.js",
+        "lib/config/validate.js"
+      ],
+      "symbolIds": []
+    },
+    "tests": {
+      "files": [
+        "test/backoff/exponential.tests.js",
+        "test/backoff/linear.tests.js",
+        "test/broker.tests.js",
+        "test/brokerAsPromised.tests.js",
+        "test/caches/inMemory.tests.js",
+        "test/config.tests.js",
+        "test/defaults.tests.js",
+        "test/publications.tests.js",
+        "test/publicationsAsPromised.tests.js",
+        "test/shovel.tests.js",
+        "test/subscriptions.tests.js",
+        "test/subscriptionsAsPromised.tests.js",
+        "test/utils/amqputils.js",
+        "test/validation.tests.js",
+        "test/vhost.tests.js"
+      ],
+      "symbolIds": []
+    }
+  },
+  "stats": {
+    "totalFiles": 105,
+    "byLanguage": {
+      "yaml": 3,
+      "unknown": 4,
+      "json": 16,
+      "markdown": 2,
+      "javascript": 79,
+      "txt": 1
+    },
+    "byCategory": {
+      "config": 17,
+      "code": 83,
+      "infra": 2,
+      "docs": 3
+    },
+    "byLayer": {
+      "infrastructure": 38,
+      "api": 2,
+      "messaging": 36,
+      "service": 8,
+      "domain": 6,
+      "tests": 15
+    },
+    "symbolsExtractedFiles": 79
+  }
+}

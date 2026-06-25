@@ -1,0 +1,349 @@
+{
+  "layer": "infrastructure",
+  "docDir": "infrastructure",
+  "count": 38,
+  "items": [
+    {
+      "id": "file:_config.yml:_config.yml",
+      "kind": "file",
+      "name": "_config.yml",
+      "file": "_config.yml",
+      "startLine": 1,
+      "endLine": 1,
+      "link": "https://github.com/cliftonc/rascal/blob/master/_config.yml#L1-L1"
+    },
+    {
+      "id": "file:.eslintignore:.eslintignore",
+      "kind": "file",
+      "name": ".eslintignore",
+      "file": ".eslintignore",
+      "startLine": 1,
+      "endLine": 2,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.eslintignore#L1-L2"
+    },
+    {
+      "id": "file:.eslintrc.json:.eslintrc.json",
+      "kind": "file",
+      "name": ".eslintrc.json",
+      "file": ".eslintrc.json",
+      "startLine": 1,
+      "endLine": 26,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.eslintrc.json#L1-L26"
+    },
+    {
+      "id": "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+      "kind": "file",
+      "name": "node-js-ci.yml",
+      "file": ".github/workflows/node-js-ci.yml",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.github/workflows/node-js-ci.yml#L1-L24"
+    },
+    {
+      "id": "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+      "kind": "file",
+      "name": "node-js-publish.yml",
+      "file": ".github/workflows/node-js-publish.yml",
+      "startLine": 1,
+      "endLine": 37,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.github/workflows/node-js-publish.yml#L1-L37"
+    },
+    {
+      "id": "file:.husky/pre-commit:pre-commit",
+      "kind": "file",
+      "name": "pre-commit",
+      "file": ".husky/pre-commit",
+      "startLine": 1,
+      "endLine": 4,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.husky/pre-commit#L1-L4"
+    },
+    {
+      "id": "file:.npmignore:.npmignore",
+      "kind": "file",
+      "name": ".npmignore",
+      "file": ".npmignore",
+      "startLine": 1,
+      "endLine": 11,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.npmignore#L1-L11"
+    },
+    {
+      "id": "file:.npmrc:.npmrc",
+      "kind": "file",
+      "name": ".npmrc",
+      "file": ".npmrc",
+      "startLine": 1,
+      "endLine": 1,
+      "link": "https://github.com/cliftonc/rascal/blob/master/.npmrc#L1-L1"
+    },
+    {
+      "id": "file:CHANGELOG.md:CHANGELOG.md",
+      "kind": "file",
+      "name": "CHANGELOG.md",
+      "file": "CHANGELOG.md",
+      "startLine": 1,
+      "endLine": 811,
+      "link": "https://github.com/cliftonc/rascal/blob/master/CHANGELOG.md#L1-L811"
+    },
+    {
+      "id": "file:examples/advanced/cluster.js:cluster.js",
+      "kind": "file",
+      "name": "cluster.js",
+      "file": "examples/advanced/cluster.js",
+      "startLine": 1,
+      "endLine": 12,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/advanced/cluster.js#L1-L12"
+    },
+    {
+      "id": "file:examples/advanced/config.js:config.js",
+      "kind": "file",
+      "name": "config.js",
+      "file": "examples/advanced/config.js",
+      "startLine": 1,
+      "endLine": 202,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/advanced/config.js#L1-L202"
+    },
+    {
+      "id": "file:examples/advanced/handlers/deleteUser.js:deleteUser.js",
+      "kind": "file",
+      "name": "deleteUser.js",
+      "file": "examples/advanced/handlers/deleteUser.js",
+      "startLine": 1,
+      "endLine": 19,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/advanced/handlers/deleteUser.js#L1-L19"
+    },
+    {
+      "id": "file:examples/advanced/handlers/saveUser.js:saveUser.js",
+      "kind": "file",
+      "name": "saveUser.js",
+      "file": "examples/advanced/handlers/saveUser.js",
+      "startLine": 1,
+      "endLine": 35,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/advanced/handlers/saveUser.js#L1-L35"
+    },
+    {
+      "id": "file:examples/advanced/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "examples/advanced/index.js",
+      "startLine": 1,
+      "endLine": 101,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/advanced/index.js#L1-L101"
+    },
+    {
+      "id": "file:examples/busy-publisher/config.json:config.json",
+      "kind": "file",
+      "name": "config.json",
+      "file": "examples/busy-publisher/config.json",
+      "startLine": 1,
+      "endLine": 34,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/busy-publisher/config.json#L1-L34"
+    },
+    {
+      "id": "file:examples/busy-publisher/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "examples/busy-publisher/index.js",
+      "startLine": 1,
+      "endLine": 32,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/busy-publisher/index.js#L1-L32"
+    },
+    {
+      "id": "file:examples/busy-publisher/package-lock.json:package-lock.json",
+      "kind": "file",
+      "name": "package-lock.json",
+      "file": "examples/busy-publisher/package-lock.json",
+      "startLine": 1,
+      "endLine": 13,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/busy-publisher/package-lock.json#L1-L13"
+    },
+    {
+      "id": "file:examples/busy-publisher/package.json:package.json",
+      "kind": "file",
+      "name": "package.json",
+      "file": "examples/busy-publisher/package.json",
+      "startLine": 1,
+      "endLine": 14,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/busy-publisher/package.json#L1-L14"
+    },
+    {
+      "id": "file:examples/default-exchange/config.json:config.json",
+      "kind": "file",
+      "name": "config.json",
+      "file": "examples/default-exchange/config.json",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/default-exchange/config.json#L1-L24"
+    },
+    {
+      "id": "file:examples/default-exchange/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "examples/default-exchange/index.js",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/default-exchange/index.js#L1-L24"
+    },
+    {
+      "id": "file:examples/mocha/config.json:config.json",
+      "kind": "file",
+      "name": "config.json",
+      "file": "examples/mocha/config.json",
+      "startLine": 1,
+      "endLine": 21,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/mocha/config.json#L1-L21"
+    },
+    {
+      "id": "file:examples/mocha/test.js:test.js",
+      "kind": "file",
+      "name": "test.js",
+      "file": "examples/mocha/test.js",
+      "startLine": 1,
+      "endLine": 40,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/mocha/test.js#L1-L40"
+    },
+    {
+      "id": "file:examples/promises/config.json:config.json",
+      "kind": "file",
+      "name": "config.json",
+      "file": "examples/promises/config.json",
+      "startLine": 1,
+      "endLine": 29,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/promises/config.json#L1-L29"
+    },
+    {
+      "id": "file:examples/promises/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "examples/promises/index.js",
+      "startLine": 1,
+      "endLine": 32,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/promises/index.js#L1-L32"
+    },
+    {
+      "id": "file:examples/simple/config.json:config.json",
+      "kind": "file",
+      "name": "config.json",
+      "file": "examples/simple/config.json",
+      "startLine": 1,
+      "endLine": 37,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/simple/config.json#L1-L37"
+    },
+    {
+      "id": "file:examples/simple/index.js:index.js",
+      "kind": "file",
+      "name": "index.js",
+      "file": "examples/simple/index.js",
+      "startLine": 1,
+      "endLine": 24,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/simple/index.js#L1-L24"
+    },
+    {
+      "id": "file:examples/streams/package-lock.json:package-lock.json",
+      "kind": "file",
+      "name": "package-lock.json",
+      "file": "examples/streams/package-lock.json",
+      "startLine": 1,
+      "endLine": 13,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/package-lock.json#L1-L13"
+    },
+    {
+      "id": "file:examples/streams/package.json:package.json",
+      "kind": "file",
+      "name": "package.json",
+      "file": "examples/streams/package.json",
+      "startLine": 1,
+      "endLine": 14,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/package.json#L1-L14"
+    },
+    {
+      "id": "file:examples/streams/publisher-config.json:publisher-config.json",
+      "kind": "file",
+      "name": "publisher-config.json",
+      "file": "examples/streams/publisher-config.json",
+      "startLine": 1,
+      "endLine": 37,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/publisher-config.json#L1-L37"
+    },
+    {
+      "id": "file:examples/streams/publisher.js:publisher.js",
+      "kind": "file",
+      "name": "publisher.js",
+      "file": "examples/streams/publisher.js",
+      "startLine": 1,
+      "endLine": 38,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/publisher.js#L1-L38"
+    },
+    {
+      "id": "file:examples/streams/subscriber-config.json:subscriber-config.json",
+      "kind": "file",
+      "name": "subscriber-config.json",
+      "file": "examples/streams/subscriber-config.json",
+      "startLine": 1,
+      "endLine": 28,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/subscriber-config.json#L1-L28"
+    },
+    {
+      "id": "file:examples/streams/subscriber.js:subscriber.js",
+      "kind": "file",
+      "name": "subscriber.js",
+      "file": "examples/streams/subscriber.js",
+      "startLine": 1,
+      "endLine": 25,
+      "link": "https://github.com/cliftonc/rascal/blob/master/examples/streams/subscriber.js#L1-L25"
+    },
+    {
+      "id": "file:lib/config/schema.json:schema.json",
+      "kind": "file",
+      "name": "schema.json",
+      "file": "lib/config/schema.json",
+      "startLine": 1,
+      "endLine": 693,
+      "link": "https://github.com/cliftonc/rascal/blob/master/lib/config/schema.json#L1-L693"
+    },
+    {
+      "id": "file:LICENSE.txt:LICENSE.txt",
+      "kind": "file",
+      "name": "LICENSE.txt",
+      "file": "LICENSE.txt",
+      "startLine": 1,
+      "endLine": 22,
+      "link": "https://github.com/cliftonc/rascal/blob/master/LICENSE.txt#L1-L22"
+    },
+    {
+      "id": "file:package-lock.json:package-lock.json",
+      "kind": "file",
+      "name": "package-lock.json",
+      "file": "package-lock.json",
+      "startLine": 1,
+      "endLine": 4863,
+      "link": "https://github.com/cliftonc/rascal/blob/master/package-lock.json#L1-L4863"
+    },
+    {
+      "id": "file:package.json:package.json",
+      "kind": "file",
+      "name": "package.json",
+      "file": "package.json",
+      "startLine": 1,
+      "endLine": 69,
+      "link": "https://github.com/cliftonc/rascal/blob/master/package.json#L1-L69"
+    },
+    {
+      "id": "file:README.md:README.md",
+      "kind": "file",
+      "name": "README.md",
+      "file": "README.md",
+      "startLine": 1,
+      "endLine": 1924,
+      "link": "https://github.com/cliftonc/rascal/blob/master/README.md#L1-L1924"
+    },
+    {
+      "id": "file:test/.eslintrc.json:.eslintrc.json",
+      "kind": "file",
+      "name": ".eslintrc.json",
+      "file": "test/.eslintrc.json",
+      "startLine": 1,
+      "endLine": 18,
+      "link": "https://github.com/cliftonc/rascal/blob/master/test/.eslintrc.json#L1-L18"
+    }
+  ]
+}
