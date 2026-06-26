@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-06-25T11:27:53.621Z",
+  "generatedAt": "2026-06-26T05:05:09.310Z",
   "project": {
     "name": "rascal",
     "languages": [
@@ -101,7 +101,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -119,7 +119,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/ci-cd.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -137,7 +137,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/ci-cd.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -155,7 +155,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -173,7 +173,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -641,7 +641,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -659,7 +659,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -695,7 +695,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -713,7 +713,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -731,7 +731,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -749,7 +749,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/api/public-exports.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -785,7 +785,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/broker.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -803,7 +803,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/broker.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -821,7 +821,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/publication.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -839,7 +839,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/publication.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -857,7 +857,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/recovery.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -875,7 +875,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -893,7 +893,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -911,7 +911,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -929,7 +929,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -947,7 +947,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -965,7 +965,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -983,7 +983,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1001,7 +1001,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1019,7 +1019,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1037,7 +1037,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1055,7 +1055,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1073,7 +1073,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1091,7 +1091,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1109,7 +1109,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1127,7 +1127,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1145,7 +1145,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1163,7 +1163,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1181,7 +1181,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1199,7 +1199,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1217,7 +1217,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1235,7 +1235,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1253,7 +1253,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1271,7 +1271,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1289,7 +1289,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1307,7 +1307,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1325,7 +1325,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1343,7 +1343,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1361,7 +1361,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1379,7 +1379,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1397,7 +1397,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/vhost.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1415,7 +1415,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/recovery.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1433,7 +1433,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1451,7 +1451,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1469,7 +1469,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1505,7 +1505,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1523,7 +1523,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1541,7 +1541,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1559,7 +1559,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/utilities.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1577,7 +1577,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/entities.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1595,7 +1595,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1613,7 +1613,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1631,7 +1631,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1649,7 +1649,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1667,7 +1667,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1685,7 +1685,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1703,7 +1703,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1721,7 +1721,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/broker-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1739,7 +1739,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/broker-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1757,7 +1757,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1775,7 +1775,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1793,7 +1793,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1811,7 +1811,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/publication-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1829,7 +1829,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/publication-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1847,7 +1847,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/vhost-shovel-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1865,7 +1865,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/subscription-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1883,7 +1883,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/subscription-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1901,7 +1901,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/utilities.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1919,7 +1919,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     },
     {
@@ -1937,7 +1937,7 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/vhost-shovel-tests.md",
-        "rebuildStatus": "verified"
+        "rebuildStatus": "done"
       }
     }
   ],
