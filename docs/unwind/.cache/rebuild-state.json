@@ -1,0 +1,1179 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-25T19:22:48Z",
+  "updatedAt": "2026-06-26T03:54:38.578Z",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "config": {
+    "scope": "whole",
+    "verificationDepth": "contract-diff",
+    "executionMode": "loop",
+    "sliceOrder": [
+      "domain",
+      "service",
+      "messaging",
+      "api",
+      "tests",
+      "infrastructure"
+    ],
+    "scaffolded": true
+  },
+  "loopState": {
+    "enabled": true,
+    "targetPct": 100,
+    "dryRounds": 0,
+    "lastCompletenessPct": 100,
+    "lastSliceId": "infrastructure"
+  },
+  "nodes": {
+    "file:lib/config/baseline.js:baseline.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/baseline.ts"
+      ],
+      "targetIds": [
+        "file:src/config/baseline.ts:baseline.ts",
+        "function:src/config/baseline.ts:baseline"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/configure.js:configure.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/configure.ts",
+        "src/config/fqn.ts",
+        "src/config/helpers.ts"
+      ],
+      "targetIds": [
+        "file:src/config/configure.ts:configure.ts",
+        "function:src/config/configure.ts:configure"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/defaults.js:defaults.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/defaults.ts"
+      ],
+      "targetIds": [
+        "file:src/config/defaults.ts:defaults.ts",
+        "function:src/config/defaults.ts:defaultConfig"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/fqn.js:fqn.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/fqn.ts"
+      ],
+      "targetIds": [
+        "file:src/config/fqn.ts:fqn.ts",
+        "function:src/config/fqn.ts:qualify",
+        "function:src/config/fqn.ts:prefix",
+        "function:src/config/fqn.ts:suffix"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/tests.js:tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/tests.ts"
+      ],
+      "targetIds": [
+        "file:src/config/tests.ts:tests.ts",
+        "function:src/config/tests.ts:testConfig"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/validate.js:validate.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/validate.ts",
+        "src/config/helpers.ts"
+      ],
+      "targetIds": [
+        "file:src/config/validate.ts:validate.ts",
+        "function:src/config/validate.ts:validate"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/config/schema.json:schema.json": {
+      "status": "done",
+      "targetFiles": [
+        "src/config/types.ts",
+        "src/config/schema.ts"
+      ],
+      "targetIds": [
+        "file:src/config/types.ts:types.ts",
+        "file:src/config/schema.ts:schema.ts",
+        "function:src/config/schema.ts:validateSchema"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/backoff/index.js:index.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/backoff/index.ts"
+      ],
+      "targetIds": [
+        "function:src/backoff/index.ts:backoff"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/backoff/exponential.js:exponential.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/backoff/exponential.ts"
+      ],
+      "targetIds": [
+        "function:src/backoff/exponential.ts:exponential"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/backoff/linear.js:linear.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/backoff/linear.ts"
+      ],
+      "targetIds": [
+        "function:src/backoff/linear.ts:linear"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/counters/stub.js:stub.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/counters/stub.ts"
+      ],
+      "targetIds": [
+        "function:src/counters/stub.ts:stub"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/counters/inMemory.js:inMemory.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/counters/inMemory.ts"
+      ],
+      "targetIds": [
+        "function:src/counters/inMemory.ts:inMemory"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/counters/inMemoryCluster.ts"
+      ],
+      "targetIds": [
+        "function:src/counters/inMemoryCluster.ts:master",
+        "function:src/counters/inMemoryCluster.ts:worker"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/counters/index.js:index.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/counters/index.ts"
+      ],
+      "targetIds": [
+        "file:src/counters/index.ts:index.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/utils/setTimeoutUnref.ts"
+      ],
+      "targetIds": [
+        "function:src/utils/setTimeoutUnref.ts:setTimeoutUnref"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/Broker.js:Broker.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/Broker.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/Broker.ts:Broker.ts",
+        "class:src/amqp/Broker.ts:Broker",
+        "function:src/amqp/Broker.ts:create"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/BrokerAsPromised.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/BrokerAsPromised.ts:BrokerAsPromised.ts",
+        "class:src/amqp/BrokerAsPromised.ts:BrokerAsPromised",
+        "function:src/amqp/BrokerAsPromised.ts:create"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/Subscription.js:Subscription.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/Subscription.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/Subscription.ts:Subscription.ts",
+        "class:src/amqp/Subscription.ts:Subscription",
+        "function:src/amqp/Subscription.ts:create"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/SubscriberSession.js:SubscriberSession.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/SubscriberSession.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/SubscriberSession.ts:SubscriberSession.ts",
+        "class:src/amqp/SubscriberSession.ts:SubscriberSession"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/SubscriberSessionAsPromised.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised.ts",
+        "class:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/SubscriberError.js:SubscriberError.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/SubscriberError.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/SubscriberError.ts:SubscriberError.ts",
+        "class:src/amqp/SubscriberError.ts:SubscriptionRecovery"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/XDeath.js:XDeath.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/XDeath.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/XDeath.ts:XDeath.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/index.js:index.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/index.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/index.ts:index.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/applyBindings.js:applyBindings.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/applyBindings.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/applyBindings.ts:applyBindings.ts",
+        "function:src/amqp/tasks/applyBindings.ts:applyBindings"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/assertExchanges.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/assertExchanges.ts:assertExchanges.ts",
+        "function:src/amqp/tasks/assertExchanges.ts:assertExchanges"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/assertQueues.js:assertQueues.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/assertQueues.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/assertQueues.ts:assertQueues.ts",
+        "function:src/amqp/tasks/assertQueues.ts:assertQueues"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/assertVhost.js:assertVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/assertVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/assertVhost.ts:assertVhost.ts",
+        "function:src/amqp/tasks/assertVhost.ts:assertVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/bounceVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/bounceVhost.ts:bounceVhost.ts",
+        "function:src/amqp/tasks/bounceVhost.ts:bounceVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/checkExchanges.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/checkExchanges.ts:checkExchanges.ts",
+        "function:src/amqp/tasks/checkExchanges.ts:checkExchanges"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/checkQueues.js:checkQueues.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/checkQueues.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/checkQueues.ts:checkQueues.ts",
+        "function:src/amqp/tasks/checkQueues.ts:checkQueues"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/checkVhost.js:checkVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/checkVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/checkVhost.ts:checkVhost.ts",
+        "function:src/amqp/tasks/checkVhost.ts:checkVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/closeChannels.js:closeChannels.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/closeChannels.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/closeChannels.ts:closeChannels.ts",
+        "function:src/amqp/tasks/closeChannels.ts:closeChannels"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/closeConnection.js:closeConnection.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/closeConnection.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/closeConnection.ts:closeConnection.ts",
+        "function:src/amqp/tasks/closeConnection.ts:closeConnection"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/createChannels.js:createChannels.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/createChannels.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/createChannels.ts:createChannels.ts",
+        "function:src/amqp/tasks/createChannels.ts:createChannels"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/createConnection.js:createConnection.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/createConnection.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/createConnection.ts:createConnection.ts",
+        "function:src/amqp/tasks/createConnection.ts:createConnection"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/deleteExchanges.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/deleteExchanges.ts:deleteExchanges.ts",
+        "function:src/amqp/tasks/deleteExchanges.ts:deleteExchanges"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/deleteQueues.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/deleteQueues.ts:deleteQueues.ts",
+        "function:src/amqp/tasks/deleteQueues.ts:deleteQueues"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/deleteVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/deleteVhost.ts:deleteVhost.ts",
+        "function:src/amqp/tasks/deleteVhost.ts:deleteVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/forewarnVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/forewarnVhost.ts:forewarnVhost.ts",
+        "function:src/amqp/tasks/forewarnVhost.ts:forewarnVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/initCounters.js:initCounters.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/initCounters.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/initCounters.ts:initCounters.ts",
+        "function:src/amqp/tasks/initCounters.ts:initCounters"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/initPublications.js:initPublications.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/initPublications.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/initPublications.ts:initPublications.ts",
+        "function:src/amqp/tasks/initPublications.ts:initPublications"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/initShovels.js:initShovels.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/initShovels.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/initShovels.ts:initShovels.ts",
+        "function:src/amqp/tasks/initShovels.ts:initShovels"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/initSubscriptions.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/initSubscriptions.ts:initSubscriptions.ts",
+        "function:src/amqp/tasks/initSubscriptions.ts:initSubscriptions"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/initVhosts.js:initVhosts.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/initVhosts.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/initVhosts.ts:initVhosts.ts",
+        "function:src/amqp/tasks/initVhosts.ts:initVhosts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/nukeVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/nukeVhost.ts:nukeVhost.ts",
+        "function:src/amqp/tasks/nukeVhost.ts:nukeVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/purgeQueues.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/purgeQueues.ts:purgeQueues.ts",
+        "function:src/amqp/tasks/purgeQueues.ts:purgeQueues"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/purgeVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/purgeVhost.ts:purgeVhost.ts",
+        "function:src/amqp/tasks/purgeVhost.ts:purgeVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/tasks/shutdownVhost.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/tasks/shutdownVhost.ts:shutdownVhost.ts",
+        "function:src/amqp/tasks/shutdownVhost.ts:shutdownVhost"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/management/Client.js:Client.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/management/Client.ts"
+      ],
+      "targetIds": [
+        "file:src/management/Client.ts:Client.ts",
+        "class:src/management/Client.ts:Client"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/Vhost.js:Vhost.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/Vhost.ts",
+        "src/amqp/SerialQueue.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/Vhost.ts:Vhost.ts",
+        "class:src/amqp/Vhost.ts:Vhost",
+        "function:src/amqp/Vhost.ts:create",
+        "function:src/amqp/Vhost.ts:composeTasks",
+        "class:src/amqp/SerialQueue.ts:SerialQueue"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/Publication.js:Publication.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/Publication.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/Publication.ts:Publication.ts",
+        "class:src/amqp/Publication.ts:Publication",
+        "function:src/amqp/Publication.ts:create",
+        "function:src/amqp/Publication.ts:publishToExchange",
+        "function:src/amqp/Publication.ts:publishToConfirmExchange",
+        "function:src/amqp/Publication.ts:sendToQueue",
+        "function:src/amqp/Publication.ts:sendToConfirmQueue",
+        "function:src/amqp/Publication.ts:publishNoConfirm",
+        "function:src/amqp/Publication.ts:publishAndConfirm",
+        "function:src/amqp/Publication.ts:encrypt",
+        "function:src/amqp/Publication.ts:getContent"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:lib/amqp/PublicationSession.js:PublicationSession.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/amqp/PublicationSession.ts"
+      ],
+      "targetIds": [
+        "file:src/amqp/PublicationSession.ts:PublicationSession.ts",
+        "class:src/amqp/PublicationSession.ts:PublicationSession"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:index.js:index.js": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "file:src/index.ts:index.ts",
+        "export:src/index.ts:Broker"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "export:index.js:BrokerAsPromised": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:BrokerAsPromised"
+      ]
+    },
+    "export:index.js:createBroker": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:createBroker"
+      ]
+    },
+    "export:index.js:createBrokerAsPromised": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:createBrokerAsPromised"
+      ]
+    },
+    "export:index.js:defaultConfig": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:defaultConfig"
+      ]
+    },
+    "export:index.js:testConfig": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:testConfig"
+      ]
+    },
+    "export:index.js:withDefaultConfig": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:withDefaultConfig"
+      ]
+    },
+    "export:index.js:withTestConfig": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:withTestConfig"
+      ]
+    },
+    "export:index.js:counters": {
+      "status": "done",
+      "targetFiles": [
+        "src/index.ts"
+      ],
+      "targetIds": [
+        "export:src/index.ts:counters"
+      ]
+    },
+    "file:test/utils/amqputils.js:amqputils.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/utils/amqputils.ts"
+      ],
+      "targetIds": [
+        "file:test/utils/amqputils.ts:amqputils.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/broker.tests.js:broker.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/broker.test.ts"
+      ],
+      "targetIds": [
+        "file:test/broker.test.ts:broker.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/brokerAsPromised.test.ts"
+      ],
+      "targetIds": [
+        "file:test/brokerAsPromised.test.ts:brokerAsPromised.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/vhost.tests.js:vhost.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/vhost.test.ts"
+      ],
+      "targetIds": [
+        "file:test/vhost.test.ts:vhost.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/shovel.tests.js:shovel.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/shovel.test.ts"
+      ],
+      "targetIds": [
+        "file:test/shovel.test.ts:shovel.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/publications.tests.js:publications.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/publications.test.ts"
+      ],
+      "targetIds": [
+        "file:test/publications.test.ts:publications.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/publicationsAsPromised.test.ts"
+      ],
+      "targetIds": [
+        "file:test/publicationsAsPromised.test.ts:publicationsAsPromised.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/subscriptions.tests.js:subscriptions.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/subscriptions.test.ts"
+      ],
+      "targetIds": [
+        "file:test/subscriptions.test.ts:subscriptions.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/subscriptionsAsPromised.test.ts"
+      ],
+      "targetIds": [
+        "file:test/subscriptionsAsPromised.test.ts:subscriptionsAsPromised.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/backoff/exponential.tests.js:exponential.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/backoff/exponential.test.ts"
+      ],
+      "targetIds": [
+        "file:test/backoff/exponential.test.ts:exponential.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/backoff/linear.tests.js:linear.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/backoff/linear.test.ts"
+      ],
+      "targetIds": [
+        "file:test/backoff/linear.test.ts:linear.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/caches/inMemory.tests.js:inMemory.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/counters/inMemory.test.ts"
+      ],
+      "targetIds": [
+        "file:test/counters/inMemory.test.ts:inMemory.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/config.tests.js:config.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/config.test.ts"
+      ],
+      "targetIds": [
+        "file:test/config.test.ts:config.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/defaults.tests.js:defaults.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/defaults.test.ts"
+      ],
+      "targetIds": [
+        "file:test/defaults.test.ts:defaults.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/validation.tests.js:validation.tests.js": {
+      "status": "done",
+      "targetFiles": [
+        "test/validation.test.ts"
+      ],
+      "targetIds": [
+        "file:test/validation.test.ts:validation.test.ts"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:package.json:package.json": {
+      "status": "done",
+      "targetFiles": [
+        "package.json"
+      ],
+      "targetIds": [
+        "file:package.json:package.json"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:.github/workflows/node-js-publish.yml:node-js-publish.yml": {
+      "status": "done",
+      "targetFiles": [
+        ".github/workflows/node-js-publish.yml"
+      ],
+      "targetIds": [
+        "file:.github/workflows/node-js-publish.yml:node-js-publish.yml"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:.github/workflows/node-js-ci.yml:node-js-ci.yml": {
+      "status": "done",
+      "targetFiles": [
+        ".github/workflows/node-js-ci.yml"
+      ],
+      "targetIds": [
+        "file:.github/workflows/node-js-ci.yml:node-js-ci.yml"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:.eslintrc.json:.eslintrc.json": {
+      "status": "done",
+      "targetFiles": [
+        "eslint.config.js"
+      ],
+      "targetIds": [
+        "file:eslint.config.js:eslint.config.js"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:test/.eslintrc.json:.eslintrc.json": {
+      "status": "done",
+      "targetFiles": [
+        "eslint.config.js"
+      ],
+      "targetIds": [
+        "file:eslint.config.js:eslint.config.js"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:.husky/pre-commit:pre-commit": {
+      "status": "done",
+      "targetFiles": [
+        ".husky/pre-commit"
+      ],
+      "targetIds": [
+        "file:.husky/pre-commit:pre-commit"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:.npmignore:.npmignore": {
+      "status": "done",
+      "targetFiles": [
+        ".npmignore"
+      ],
+      "targetIds": [
+        "file:.npmignore:.npmignore"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:LICENSE.txt:LICENSE.txt": {
+      "status": "done",
+      "targetFiles": [
+        "LICENSE.txt"
+      ],
+      "targetIds": [
+        "file:LICENSE.txt:LICENSE.txt"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    },
+    "file:README.md:README.md": {
+      "status": "done",
+      "targetFiles": [
+        "README.md"
+      ],
+      "targetIds": [
+        "file:README.md:README.md"
+      ],
+      "confirmedInTargetScan": true,
+      "contractEquivalence": "n/a"
+    }
+  },
+  "slices": {
+    "domain": {
+      "id": "domain",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/config/baseline.js:baseline.js",
+        "file:lib/config/configure.js:configure.js",
+        "file:lib/config/defaults.js:defaults.js",
+        "file:lib/config/fqn.js:fqn.js",
+        "file:lib/config/tests.js:tests.js",
+        "file:lib/config/validate.js:validate.js",
+        "file:lib/config/schema.json:schema.json"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "service": {
+      "id": "service",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/backoff/index.js:index.js",
+        "file:lib/backoff/exponential.js:exponential.js",
+        "file:lib/backoff/linear.js:linear.js",
+        "file:lib/counters/stub.js:stub.js",
+        "file:lib/counters/inMemory.js:inMemory.js",
+        "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+        "file:lib/counters/index.js:index.js",
+        "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "messaging-broker": {
+      "id": "messaging-broker",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/amqp/Broker.js:Broker.js",
+        "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "messaging-sub-recovery": {
+      "id": "messaging-sub-recovery",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/amqp/Subscription.js:Subscription.js",
+        "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+        "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+        "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+        "file:lib/amqp/XDeath.js:XDeath.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "messaging-tasks": {
+      "id": "messaging-tasks",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/amqp/tasks/index.js:index.js",
+        "file:lib/amqp/tasks/applyBindings.js:applyBindings.js",
+        "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js",
+        "file:lib/amqp/tasks/assertQueues.js:assertQueues.js",
+        "file:lib/amqp/tasks/assertVhost.js:assertVhost.js",
+        "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js",
+        "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js",
+        "file:lib/amqp/tasks/checkQueues.js:checkQueues.js",
+        "file:lib/amqp/tasks/checkVhost.js:checkVhost.js",
+        "file:lib/amqp/tasks/closeChannels.js:closeChannels.js",
+        "file:lib/amqp/tasks/closeConnection.js:closeConnection.js",
+        "file:lib/amqp/tasks/createChannels.js:createChannels.js",
+        "file:lib/amqp/tasks/createConnection.js:createConnection.js",
+        "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js",
+        "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js",
+        "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js",
+        "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js",
+        "file:lib/amqp/tasks/initCounters.js:initCounters.js",
+        "file:lib/amqp/tasks/initPublications.js:initPublications.js",
+        "file:lib/amqp/tasks/initShovels.js:initShovels.js",
+        "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js",
+        "file:lib/amqp/tasks/initVhosts.js:initVhosts.js",
+        "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js",
+        "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js",
+        "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js",
+        "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js",
+        "file:lib/management/Client.js:Client.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "messaging-vhost-pub": {
+      "id": "messaging-vhost-pub",
+      "status": "built",
+      "nodeIds": [
+        "file:lib/amqp/Vhost.js:Vhost.js",
+        "file:lib/amqp/Publication.js:Publication.js",
+        "file:lib/amqp/PublicationSession.js:PublicationSession.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "api": {
+      "id": "api",
+      "status": "built",
+      "nodeIds": [
+        "file:index.js:index.js",
+        "export:index.js:BrokerAsPromised",
+        "export:index.js:createBroker",
+        "export:index.js:createBrokerAsPromised",
+        "export:index.js:defaultConfig",
+        "export:index.js:testConfig",
+        "export:index.js:withDefaultConfig",
+        "export:index.js:withTestConfig",
+        "export:index.js:counters"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "tests-broker": {
+      "id": "tests-broker",
+      "status": "built",
+      "nodeIds": [
+        "file:test/utils/amqputils.js:amqputils.js",
+        "file:test/broker.tests.js:broker.tests.js",
+        "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js",
+        "file:test/vhost.tests.js:vhost.tests.js",
+        "file:test/shovel.tests.js:shovel.tests.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "tests-pubsub": {
+      "id": "tests-pubsub",
+      "status": "built",
+      "nodeIds": [
+        "file:test/publications.tests.js:publications.tests.js",
+        "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js",
+        "file:test/subscriptions.tests.js:subscriptions.tests.js",
+        "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "tests-unit": {
+      "id": "tests-unit",
+      "status": "built",
+      "nodeIds": [
+        "file:test/backoff/exponential.tests.js:exponential.tests.js",
+        "file:test/backoff/linear.tests.js:linear.tests.js",
+        "file:test/caches/inMemory.tests.js:inMemory.tests.js",
+        "file:test/config.tests.js:config.tests.js",
+        "file:test/defaults.tests.js:defaults.tests.js",
+        "file:test/validation.tests.js:validation.tests.js"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    },
+    "infrastructure": {
+      "id": "infrastructure",
+      "status": "built",
+      "nodeIds": [
+        "file:package.json:package.json",
+        "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+        "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+        "file:.eslintrc.json:.eslintrc.json",
+        "file:test/.eslintrc.json:.eslintrc.json",
+        "file:.husky/pre-commit:pre-commit",
+        "file:.npmignore:.npmignore",
+        "file:LICENSE.txt:LICENSE.txt",
+        "file:README.md:README.md"
+      ],
+      "builtAt": "2026-06-26T03:54:38.511Z"
+    }
+  }
+}

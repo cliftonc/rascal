@@ -1,0 +1,36 @@
+{
+  "sliceId": "tests-unit",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:test/backoff/exponential.tests.js:exponential.tests.js",
+      "targetFiles": ["test/backoff/exponential.test.ts"],
+      "targetIds": ["file:test/backoff/exponential.test.ts:exponential.test.ts"]
+    },
+    {
+      "sourceId": "file:test/backoff/linear.tests.js:linear.tests.js",
+      "targetFiles": ["test/backoff/linear.test.ts"],
+      "targetIds": ["file:test/backoff/linear.test.ts:linear.test.ts"]
+    },
+    {
+      "sourceId": "file:test/caches/inMemory.tests.js:inMemory.tests.js",
+      "targetFiles": ["test/counters/inMemory.test.ts"],
+      "targetIds": ["file:test/counters/inMemory.test.ts:inMemory.test.ts"]
+    },
+    {
+      "sourceId": "file:test/config.tests.js:config.tests.js",
+      "targetFiles": ["test/config.test.ts"],
+      "targetIds": ["file:test/config.test.ts:config.test.ts"]
+    },
+    {
+      "sourceId": "file:test/defaults.tests.js:defaults.tests.js",
+      "targetFiles": ["test/defaults.test.ts"],
+      "targetIds": ["file:test/defaults.test.ts:defaults.test.ts"]
+    },
+    {
+      "sourceId": "file:test/validation.tests.js:validation.tests.js",
+      "targetFiles": ["test/validation.test.ts"],
+      "targetIds": ["file:test/validation.test.ts:validation.test.ts"]
+    }
+  ]
+}

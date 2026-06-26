@@ -1,0 +1,54 @@
+{
+  "sliceId": "api",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:index.js:index.js",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": [
+        "file:src/index.ts:index.ts",
+        "export:src/index.ts:Broker"
+      ]
+    },
+    {
+      "sourceId": "export:index.js:BrokerAsPromised",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:BrokerAsPromised"]
+    },
+    {
+      "sourceId": "export:index.js:createBroker",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:createBroker"]
+    },
+    {
+      "sourceId": "export:index.js:createBrokerAsPromised",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:createBrokerAsPromised"]
+    },
+    {
+      "sourceId": "export:index.js:defaultConfig",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:defaultConfig"]
+    },
+    {
+      "sourceId": "export:index.js:testConfig",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:testConfig"]
+    },
+    {
+      "sourceId": "export:index.js:withDefaultConfig",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:withDefaultConfig"]
+    },
+    {
+      "sourceId": "export:index.js:withTestConfig",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:withTestConfig"]
+    },
+    {
+      "sourceId": "export:index.js:counters",
+      "targetFiles": ["src/index.ts"],
+      "targetIds": ["export:src/index.ts:counters"]
+    }
+  ]
+}

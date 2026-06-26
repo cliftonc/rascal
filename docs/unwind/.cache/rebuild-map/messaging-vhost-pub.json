@@ -1,0 +1,42 @@
+{
+  "sliceId": "messaging-vhost-pub",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:lib/amqp/Vhost.js:Vhost.js",
+      "targetFiles": ["src/amqp/Vhost.ts", "src/amqp/SerialQueue.ts"],
+      "targetIds": [
+        "file:src/amqp/Vhost.ts:Vhost.ts",
+        "class:src/amqp/Vhost.ts:Vhost",
+        "function:src/amqp/Vhost.ts:create",
+        "function:src/amqp/Vhost.ts:composeTasks",
+        "class:src/amqp/SerialQueue.ts:SerialQueue"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/Publication.js:Publication.js",
+      "targetFiles": ["src/amqp/Publication.ts"],
+      "targetIds": [
+        "file:src/amqp/Publication.ts:Publication.ts",
+        "class:src/amqp/Publication.ts:Publication",
+        "function:src/amqp/Publication.ts:create",
+        "function:src/amqp/Publication.ts:publishToExchange",
+        "function:src/amqp/Publication.ts:publishToConfirmExchange",
+        "function:src/amqp/Publication.ts:sendToQueue",
+        "function:src/amqp/Publication.ts:sendToConfirmQueue",
+        "function:src/amqp/Publication.ts:publishNoConfirm",
+        "function:src/amqp/Publication.ts:publishAndConfirm",
+        "function:src/amqp/Publication.ts:encrypt",
+        "function:src/amqp/Publication.ts:getContent"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/PublicationSession.js:PublicationSession.js",
+      "targetFiles": ["src/amqp/PublicationSession.ts"],
+      "targetIds": [
+        "file:src/amqp/PublicationSession.ts:PublicationSession.ts",
+        "class:src/amqp/PublicationSession.ts:PublicationSession"
+      ]
+    }
+  ]
+}

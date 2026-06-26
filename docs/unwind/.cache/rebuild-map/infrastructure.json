@@ -1,0 +1,70 @@
+{
+  "sliceId": "infrastructure",
+  "layer": "infrastructure",
+  "note": "MUST + SHOULD infra items rebuilt as TypeScript-package equivalents. The 28 DON'T-priority items (examples/**, package-lock.json files, CHANGELOG.md, _config.yml, .npmrc, .eslintignore) are intentionally excluded per rebuild-principles (skip [DON'T]). schema.json was already ported to TS in the domain slice (src/config/types.ts + schema.ts) and is mapped there.",
+  "mappings": [
+    {
+      "sourceId": "file:package.json:package.json",
+      "priority": "MUST",
+      "targetFiles": ["package.json"],
+      "targetIds": ["file:package.json:package.json"],
+      "rationale": "Rewritten manifest: dual ESM+CJS exports map, types, engines>=18, amqplib peerDep, tsup/vitest/eslint scripts, files=[dist]."
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+      "priority": "MUST",
+      "targetFiles": [".github/workflows/node-js-publish.yml"],
+      "targetIds": ["file:.github/workflows/node-js-publish.yml:node-js-publish.yml"],
+      "rationale": "Release-triggered npm publish preserved; adds typecheck+build before publish (dist is the published artifact), Node 20, provenance."
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+      "priority": "SHOULD",
+      "targetFiles": [".github/workflows/node-js-ci.yml"],
+      "targetIds": ["file:.github/workflows/node-js-ci.yml:node-js-ci.yml"],
+      "rationale": "CI with rabbitmq service; Node matrix updated to 18/20/22/24; typecheck+lint+build+vitest; RASCAL_TEST_BROKER enables integration suites."
+    },
+    {
+      "sourceId": "file:.eslintrc.json:.eslintrc.json",
+      "priority": "SHOULD",
+      "targetFiles": ["eslint.config.js"],
+      "targetIds": ["file:eslint.config.js:eslint.config.js"],
+      "rationale": "airbnb-base .eslintrc.json modernized to a flat typescript-eslint config (src rules)."
+    },
+    {
+      "sourceId": "file:test/.eslintrc.json:.eslintrc.json",
+      "priority": "SHOULD",
+      "targetFiles": ["eslint.config.js"],
+      "targetIds": ["file:eslint.config.js:eslint.config.js"],
+      "rationale": "Test-globals/no-shadow override folded into the test/** block of the flat eslint config (Vitest provides globals)."
+    },
+    {
+      "sourceId": "file:.husky/pre-commit:pre-commit",
+      "priority": "SHOULD",
+      "targetFiles": [".husky/pre-commit"],
+      "targetIds": ["file:.husky/pre-commit:pre-commit"],
+      "rationale": "Pre-commit hook: lint-staged + typecheck (husky v9 format)."
+    },
+    {
+      "sourceId": "file:.npmignore:.npmignore",
+      "priority": "SHOULD",
+      "targetFiles": [".npmignore"],
+      "targetIds": ["file:.npmignore:.npmignore"],
+      "rationale": "Excludes src/test/config from the package; dist is the published artifact (also enforced by files=[dist])."
+    },
+    {
+      "sourceId": "file:LICENSE.txt:LICENSE.txt",
+      "priority": "SHOULD",
+      "targetFiles": ["LICENSE.txt"],
+      "targetIds": ["file:LICENSE.txt:LICENSE.txt"],
+      "rationale": "MIT license carried over verbatim (with added copyright holder)."
+    },
+    {
+      "sourceId": "file:README.md:README.md",
+      "priority": "SHOULD",
+      "targetFiles": ["README.md"],
+      "targetIds": ["file:README.md:README.md"],
+      "rationale": "README adapted for the TS rebuild: dual-format usage, 9-export API table, migration notes; exhaustive config reference linked upstream."
+    }
+  ]
+}

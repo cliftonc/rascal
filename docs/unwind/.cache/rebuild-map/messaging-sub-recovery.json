@@ -1,0 +1,46 @@
+{
+  "sliceId": "messaging-sub-recovery",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:lib/amqp/Subscription.js:Subscription.js",
+      "targetFiles": ["src/amqp/Subscription.ts"],
+      "targetIds": [
+        "file:src/amqp/Subscription.ts:Subscription.ts",
+        "class:src/amqp/Subscription.ts:Subscription",
+        "function:src/amqp/Subscription.ts:create"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+      "targetFiles": ["src/amqp/SubscriberSession.ts"],
+      "targetIds": [
+        "file:src/amqp/SubscriberSession.ts:SubscriberSession.ts",
+        "class:src/amqp/SubscriberSession.ts:SubscriberSession"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+      "targetFiles": ["src/amqp/SubscriberSessionAsPromised.ts"],
+      "targetIds": [
+        "file:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised.ts",
+        "class:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+      "targetFiles": ["src/amqp/SubscriberError.ts"],
+      "targetIds": [
+        "file:src/amqp/SubscriberError.ts:SubscriberError.ts",
+        "class:src/amqp/SubscriberError.ts:SubscriptionRecovery"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/XDeath.js:XDeath.js",
+      "targetFiles": ["src/amqp/XDeath.ts"],
+      "targetIds": [
+        "file:src/amqp/XDeath.ts:XDeath.ts"
+      ]
+    }
+  ]
+}

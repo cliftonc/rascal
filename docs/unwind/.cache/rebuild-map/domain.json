@@ -1,0 +1,77 @@
+{
+  "sliceId": "domain",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "layer": "domain",
+  "mappings": [
+    {
+      "sourceId": "file:lib/config/baseline.js:baseline.js",
+      "targetFiles": ["src/config/baseline.ts"],
+      "targetIds": [
+        "file:src/config/baseline.ts:baseline.ts",
+        "function:src/config/baseline.ts:baseline"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/configure.js:configure.js",
+      "targetFiles": ["src/config/configure.ts", "src/config/fqn.ts", "src/config/helpers.ts"],
+      "targetIds": [
+        "file:src/config/configure.ts:configure.ts",
+        "function:src/config/configure.ts:configure"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/defaults.js:defaults.js",
+      "targetFiles": ["src/config/defaults.ts"],
+      "targetIds": [
+        "file:src/config/defaults.ts:defaults.ts",
+        "function:src/config/defaults.ts:defaultConfig"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "targetFiles": ["src/config/fqn.ts"],
+      "targetIds": [
+        "file:src/config/fqn.ts:fqn.ts",
+        "function:src/config/fqn.ts:qualify",
+        "function:src/config/fqn.ts:prefix",
+        "function:src/config/fqn.ts:suffix"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/tests.js:tests.js",
+      "targetFiles": ["src/config/tests.ts"],
+      "targetIds": [
+        "file:src/config/tests.ts:tests.ts",
+        "function:src/config/tests.ts:testConfig"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/validate.js:validate.js",
+      "targetFiles": ["src/config/validate.ts", "src/config/helpers.ts"],
+      "targetIds": [
+        "file:src/config/validate.ts:validate.ts",
+        "function:src/config/validate.ts:validate"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/schema.json:schema.json",
+      "targetFiles": ["src/config/types.ts", "src/config/schema.ts"],
+      "targetIds": [
+        "file:src/config/types.ts:types.ts",
+        "file:src/config/schema.ts:schema.ts",
+        "function:src/config/schema.ts:validateSchema"
+      ]
+    }
+  ],
+  "supportingFiles": [
+    {
+      "path": "src/config/helpers.ts",
+      "note": "Native replacements for the lodash helpers the config pipeline relied on (defaultsDeep, defaults, get, omit, each, compact, uniq, cloneDeep via structuredClone). Not a [MUST] item itself; supports configure/validate."
+    },
+    {
+      "path": "src/config/index.ts",
+      "note": "Config slice entrypoint. Re-exports the presets + pipeline and provides withDefaultConfig/withTestConfig/preflight equivalents (source: index.js, lib/amqp/Broker.js preflight = compose(validate, configure)) so the later API slice can wire them."
+    }
+  ],
+  "notes": "Full TypeScript rewrite (strict mode passes `tsc --noEmit`). Dependency modernization applied: lodash deep helpers -> structuredClone + small native helpers; uuid@8 -> crypto.randomUUID; xregexp -> native named-group regex; safe-json-parse not needed in this slice. Functional equivalence verified with an equivalence harness diffing the original lib/config (lodash/uuid/xregexp) against the compiled rebuild across 17 fixtures (normalized config shapes modulo random UUID/connection-index, plus exact validation error messages) — all matched. Two latent source no-ops were preserved faithfully (validate.js:26 `_.get(vhost)` management-attr check and validate.js:160 `_.get(config,'config.redeliveries.counters')`), with explanatory comments."
+}

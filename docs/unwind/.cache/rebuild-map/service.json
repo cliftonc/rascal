@@ -1,0 +1,49 @@
+{
+  "sliceId": "service",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:lib/backoff/index.js:index.js",
+      "targetFiles": ["src/backoff/index.ts"],
+      "targetIds": ["function:src/backoff/index.ts:backoff"]
+    },
+    {
+      "sourceId": "file:lib/backoff/exponential.js:exponential.js",
+      "targetFiles": ["src/backoff/exponential.ts"],
+      "targetIds": ["function:src/backoff/exponential.ts:exponential"]
+    },
+    {
+      "sourceId": "file:lib/backoff/linear.js:linear.js",
+      "targetFiles": ["src/backoff/linear.ts"],
+      "targetIds": ["function:src/backoff/linear.ts:linear"]
+    },
+    {
+      "sourceId": "file:lib/counters/stub.js:stub.js",
+      "targetFiles": ["src/counters/stub.ts"],
+      "targetIds": ["function:src/counters/stub.ts:stub"]
+    },
+    {
+      "sourceId": "file:lib/counters/inMemory.js:inMemory.js",
+      "targetFiles": ["src/counters/inMemory.ts"],
+      "targetIds": ["function:src/counters/inMemory.ts:inMemory"]
+    },
+    {
+      "sourceId": "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+      "targetFiles": ["src/counters/inMemoryCluster.ts"],
+      "targetIds": [
+        "function:src/counters/inMemoryCluster.ts:master",
+        "function:src/counters/inMemoryCluster.ts:worker"
+      ]
+    },
+    {
+      "sourceId": "file:lib/counters/index.js:index.js",
+      "targetFiles": ["src/counters/index.ts"],
+      "targetIds": ["file:src/counters/index.ts:index.ts"]
+    },
+    {
+      "sourceId": "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js",
+      "targetFiles": ["src/utils/setTimeoutUnref.ts"],
+      "targetIds": ["function:src/utils/setTimeoutUnref.ts:setTimeoutUnref"]
+    }
+  ]
+}

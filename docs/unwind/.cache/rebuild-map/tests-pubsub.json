@@ -1,0 +1,26 @@
+{
+  "sliceId": "tests-pubsub",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:test/publications.tests.js:publications.tests.js",
+      "targetFiles": ["test/publications.test.ts"],
+      "targetIds": ["file:test/publications.test.ts:publications.test.ts"]
+    },
+    {
+      "sourceId": "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js",
+      "targetFiles": ["test/publicationsAsPromised.test.ts"],
+      "targetIds": ["file:test/publicationsAsPromised.test.ts:publicationsAsPromised.test.ts"]
+    },
+    {
+      "sourceId": "file:test/subscriptions.tests.js:subscriptions.tests.js",
+      "targetFiles": ["test/subscriptions.test.ts"],
+      "targetIds": ["file:test/subscriptions.test.ts:subscriptions.test.ts"]
+    },
+    {
+      "sourceId": "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js",
+      "targetFiles": ["test/subscriptionsAsPromised.test.ts"],
+      "targetIds": ["file:test/subscriptionsAsPromised.test.ts:subscriptionsAsPromised.test.ts"]
+    }
+  ]
+}

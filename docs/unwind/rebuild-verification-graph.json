@@ -1,0 +1,1602 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-26T03:54:38.578Z",
+  "sourceProject": {
+    "name": "rascal",
+    "languages": [
+      "javascript",
+      "json",
+      "markdown",
+      "txt",
+      "unknown",
+      "yaml"
+    ]
+  },
+  "targetProject": {
+    "name": "rascal",
+    "languages": [
+      "javascript",
+      "json",
+      "markdown",
+      "txt",
+      "typescript",
+      "unknown",
+      "yaml"
+    ],
+    "root": ""
+  },
+  "nodes": [
+    {
+      "sourceId": "file:_config.yml:_config.yml",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:.eslintignore:.eslintignore",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:.eslintrc.json:.eslintrc.json",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:eslint.config.js:eslint.config.js"
+      ]
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:.github/workflows/node-js-ci.yml:node-js-ci.yml"
+      ]
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+      "layer": "infrastructure",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:.github/workflows/node-js-publish.yml:node-js-publish.yml"
+      ]
+    },
+    {
+      "sourceId": "file:.husky/pre-commit:pre-commit",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:.husky/pre-commit:pre-commit"
+      ]
+    },
+    {
+      "sourceId": "file:.npmignore:.npmignore",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:.npmignore:.npmignore"
+      ]
+    },
+    {
+      "sourceId": "file:.npmrc:.npmrc",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:CHANGELOG.md:CHANGELOG.md",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/advanced/cluster.js:cluster.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/advanced/config.js:config.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/advanced/handlers/deleteUser.js:deleteUser.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/advanced/handlers/saveUser.js:saveUser.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/advanced/index.js:index.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/busy-publisher/config.json:config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/busy-publisher/index.js:index.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/busy-publisher/package-lock.json:package-lock.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/busy-publisher/package.json:package.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/default-exchange/config.json:config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/default-exchange/index.js:index.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/mocha/config.json:config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/mocha/test.js:test.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/promises/config.json:config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/promises/index.js:index.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/simple/config.json:config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/simple/index.js:index.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/package-lock.json:package-lock.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/package.json:package.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/publisher-config.json:publisher-config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/publisher.js:publisher.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/subscriber-config.json:subscriber-config.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:examples/streams/subscriber.js:subscriber.js",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:lib/config/schema.json:schema.json",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/types.ts:types.ts",
+        "file:src/config/schema.ts:schema.ts",
+        "function:src/config/schema.ts:validateSchema"
+      ]
+    },
+    {
+      "sourceId": "file:LICENSE.txt:LICENSE.txt",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:LICENSE.txt:LICENSE.txt"
+      ]
+    },
+    {
+      "sourceId": "file:package-lock.json:package-lock.json",
+      "layer": "infrastructure",
+      "priority": "DON'T",
+      "contractKind": null,
+      "rebuiltState": "excluded",
+      "targetIds": []
+    },
+    {
+      "sourceId": "file:package.json:package.json",
+      "layer": "infrastructure",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:package.json:package.json"
+      ]
+    },
+    {
+      "sourceId": "file:README.md:README.md",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:README.md:README.md"
+      ]
+    },
+    {
+      "sourceId": "file:test/.eslintrc.json:.eslintrc.json",
+      "layer": "infrastructure",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:eslint.config.js:eslint.config.js"
+      ]
+    },
+    {
+      "sourceId": "file:index.js:index.js",
+      "layer": "api",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/index.ts:index.ts",
+        "export:src/index.ts:Broker"
+      ]
+    },
+    {
+      "sourceId": "file:lib/management/Client.js:Client.js",
+      "layer": "api",
+      "priority": null,
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/management/Client.ts:Client.ts",
+        "class:src/management/Client.ts:Client"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/Broker.js:Broker.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/Broker.ts:Broker.ts",
+        "class:src/amqp/Broker.ts:Broker",
+        "function:src/amqp/Broker.ts:create"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/BrokerAsPromised.ts:BrokerAsPromised.ts",
+        "class:src/amqp/BrokerAsPromised.ts:BrokerAsPromised",
+        "function:src/amqp/BrokerAsPromised.ts:create"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/Publication.js:Publication.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/Publication.ts:Publication.ts",
+        "class:src/amqp/Publication.ts:Publication",
+        "function:src/amqp/Publication.ts:create",
+        "function:src/amqp/Publication.ts:publishToExchange",
+        "function:src/amqp/Publication.ts:publishToConfirmExchange",
+        "function:src/amqp/Publication.ts:sendToQueue",
+        "function:src/amqp/Publication.ts:sendToConfirmQueue",
+        "function:src/amqp/Publication.ts:publishNoConfirm",
+        "function:src/amqp/Publication.ts:publishAndConfirm",
+        "function:src/amqp/Publication.ts:encrypt",
+        "function:src/amqp/Publication.ts:getContent"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/PublicationSession.js:PublicationSession.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/PublicationSession.ts:PublicationSession.ts",
+        "class:src/amqp/PublicationSession.ts:PublicationSession"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/SubscriberError.ts:SubscriberError.ts",
+        "class:src/amqp/SubscriberError.ts:SubscriptionRecovery"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/SubscriberSession.ts:SubscriberSession.ts",
+        "class:src/amqp/SubscriberSession.ts:SubscriberSession"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised.ts",
+        "class:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/Subscription.js:Subscription.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/Subscription.ts:Subscription.ts",
+        "class:src/amqp/Subscription.ts:Subscription",
+        "function:src/amqp/Subscription.ts:create"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/applyBindings.js:applyBindings.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/applyBindings.ts:applyBindings.ts",
+        "function:src/amqp/tasks/applyBindings.ts:applyBindings"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/assertExchanges.ts:assertExchanges.ts",
+        "function:src/amqp/tasks/assertExchanges.ts:assertExchanges"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertQueues.js:assertQueues.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/assertQueues.ts:assertQueues.ts",
+        "function:src/amqp/tasks/assertQueues.ts:assertQueues"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertVhost.js:assertVhost.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/assertVhost.ts:assertVhost.ts",
+        "function:src/amqp/tasks/assertVhost.ts:assertVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/bounceVhost.ts:bounceVhost.ts",
+        "function:src/amqp/tasks/bounceVhost.ts:bounceVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/checkExchanges.ts:checkExchanges.ts",
+        "function:src/amqp/tasks/checkExchanges.ts:checkExchanges"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkQueues.js:checkQueues.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/checkQueues.ts:checkQueues.ts",
+        "function:src/amqp/tasks/checkQueues.ts:checkQueues"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkVhost.js:checkVhost.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/checkVhost.ts:checkVhost.ts",
+        "function:src/amqp/tasks/checkVhost.ts:checkVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeChannels.js:closeChannels.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/closeChannels.ts:closeChannels.ts",
+        "function:src/amqp/tasks/closeChannels.ts:closeChannels"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeConnection.js:closeConnection.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/closeConnection.ts:closeConnection.ts",
+        "function:src/amqp/tasks/closeConnection.ts:closeConnection"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createChannels.js:createChannels.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/createChannels.ts:createChannels.ts",
+        "function:src/amqp/tasks/createChannels.ts:createChannels"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createConnection.js:createConnection.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/createConnection.ts:createConnection.ts",
+        "function:src/amqp/tasks/createConnection.ts:createConnection"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/deleteExchanges.ts:deleteExchanges.ts",
+        "function:src/amqp/tasks/deleteExchanges.ts:deleteExchanges"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/deleteQueues.ts:deleteQueues.ts",
+        "function:src/amqp/tasks/deleteQueues.ts:deleteQueues"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/deleteVhost.ts:deleteVhost.ts",
+        "function:src/amqp/tasks/deleteVhost.ts:deleteVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/forewarnVhost.ts:forewarnVhost.ts",
+        "function:src/amqp/tasks/forewarnVhost.ts:forewarnVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/index.js:index.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/index.ts:index.ts"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initCounters.js:initCounters.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/initCounters.ts:initCounters.ts",
+        "function:src/amqp/tasks/initCounters.ts:initCounters"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initPublications.js:initPublications.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/initPublications.ts:initPublications.ts",
+        "function:src/amqp/tasks/initPublications.ts:initPublications"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initShovels.js:initShovels.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/initShovels.ts:initShovels.ts",
+        "function:src/amqp/tasks/initShovels.ts:initShovels"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/initSubscriptions.ts:initSubscriptions.ts",
+        "function:src/amqp/tasks/initSubscriptions.ts:initSubscriptions"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initVhosts.js:initVhosts.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/initVhosts.ts:initVhosts.ts",
+        "function:src/amqp/tasks/initVhosts.ts:initVhosts"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/nukeVhost.ts:nukeVhost.ts",
+        "function:src/amqp/tasks/nukeVhost.ts:nukeVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/purgeQueues.ts:purgeQueues.ts",
+        "function:src/amqp/tasks/purgeQueues.ts:purgeQueues"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/purgeVhost.ts:purgeVhost.ts",
+        "function:src/amqp/tasks/purgeVhost.ts:purgeVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/tasks/shutdownVhost.ts:shutdownVhost.ts",
+        "function:src/amqp/tasks/shutdownVhost.ts:shutdownVhost"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/Vhost.js:Vhost.js",
+      "layer": "messaging",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/Vhost.ts:Vhost.ts",
+        "class:src/amqp/Vhost.ts:Vhost",
+        "function:src/amqp/Vhost.ts:create",
+        "function:src/amqp/Vhost.ts:composeTasks",
+        "class:src/amqp/SerialQueue.ts:SerialQueue"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/XDeath.js:XDeath.js",
+      "layer": "messaging",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/amqp/XDeath.ts:XDeath.ts"
+      ]
+    },
+    {
+      "sourceId": "file:lib/backoff/exponential.js:exponential.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/backoff/exponential.ts:exponential"
+      ]
+    },
+    {
+      "sourceId": "file:lib/backoff/index.js:index.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/backoff/index.ts:backoff"
+      ]
+    },
+    {
+      "sourceId": "file:lib/backoff/linear.js:linear.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/backoff/linear.ts:linear"
+      ]
+    },
+    {
+      "sourceId": "file:lib/counters/index.js:index.js",
+      "layer": "service",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/counters/index.ts:index.ts"
+      ]
+    },
+    {
+      "sourceId": "file:lib/counters/inMemory.js:inMemory.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/counters/inMemory.ts:inMemory"
+      ]
+    },
+    {
+      "sourceId": "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/counters/inMemoryCluster.ts:master",
+        "function:src/counters/inMemoryCluster.ts:worker"
+      ]
+    },
+    {
+      "sourceId": "file:lib/counters/stub.js:stub.js",
+      "layer": "service",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/counters/stub.ts:stub"
+      ]
+    },
+    {
+      "sourceId": "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js",
+      "layer": "service",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "function:src/utils/setTimeoutUnref.ts:setTimeoutUnref"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/baseline.js:baseline.js",
+      "layer": "domain",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/baseline.ts:baseline.ts",
+        "function:src/config/baseline.ts:baseline"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/configure.js:configure.js",
+      "layer": "domain",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/configure.ts:configure.ts",
+        "function:src/config/configure.ts:configure"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/defaults.js:defaults.js",
+      "layer": "domain",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/defaults.ts:defaults.ts",
+        "function:src/config/defaults.ts:defaultConfig"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "layer": "domain",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/fqn.ts:fqn.ts",
+        "function:src/config/fqn.ts:qualify",
+        "function:src/config/fqn.ts:prefix",
+        "function:src/config/fqn.ts:suffix"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/tests.js:tests.js",
+      "layer": "domain",
+      "priority": "SHOULD",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/tests.ts:tests.ts",
+        "function:src/config/tests.ts:testConfig"
+      ]
+    },
+    {
+      "sourceId": "file:lib/config/validate.js:validate.js",
+      "layer": "domain",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:src/config/validate.ts:validate.ts",
+        "function:src/config/validate.ts:validate"
+      ]
+    },
+    {
+      "sourceId": "file:test/backoff/exponential.tests.js:exponential.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/backoff/exponential.test.ts:exponential.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/backoff/linear.tests.js:linear.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/backoff/linear.test.ts:linear.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/broker.tests.js:broker.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/broker.test.ts:broker.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/brokerAsPromised.test.ts:brokerAsPromised.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/caches/inMemory.tests.js:inMemory.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/counters/inMemory.test.ts:inMemory.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/config.tests.js:config.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/config.test.ts:config.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/defaults.tests.js:defaults.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/defaults.test.ts:defaults.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/publications.tests.js:publications.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/publications.test.ts:publications.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/publicationsAsPromised.test.ts:publicationsAsPromised.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/shovel.tests.js:shovel.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/shovel.test.ts:shovel.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/subscriptions.tests.js:subscriptions.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/subscriptions.test.ts:subscriptions.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/subscriptionsAsPromised.test.ts:subscriptionsAsPromised.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/utils/amqputils.js:amqputils.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/utils/amqputils.ts:amqputils.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/validation.tests.js:validation.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/validation.test.ts:validation.test.ts"
+      ]
+    },
+    {
+      "sourceId": "file:test/vhost.tests.js:vhost.tests.js",
+      "layer": "tests",
+      "priority": "MUST",
+      "contractKind": null,
+      "rebuiltState": "present",
+      "targetIds": [
+        "file:test/vhost.test.ts:vhost.test.ts"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "sourceId": "file:.eslintrc.json:.eslintrc.json",
+      "targetId": "file:eslint.config.js:eslint.config.js",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+      "targetId": "file:.github/workflows/node-js-ci.yml:node-js-ci.yml",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+      "targetId": "file:.github/workflows/node-js-publish.yml:node-js-publish.yml",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:.husky/pre-commit:pre-commit",
+      "targetId": "file:.husky/pre-commit:pre-commit",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:.npmignore:.npmignore",
+      "targetId": "file:.npmignore:.npmignore",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/schema.json:schema.json",
+      "targetId": "file:src/config/types.ts:types.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/schema.json:schema.json",
+      "targetId": "file:src/config/schema.ts:schema.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/schema.json:schema.json",
+      "targetId": "function:src/config/schema.ts:validateSchema",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:LICENSE.txt:LICENSE.txt",
+      "targetId": "file:LICENSE.txt:LICENSE.txt",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:package.json:package.json",
+      "targetId": "file:package.json:package.json",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:README.md:README.md",
+      "targetId": "file:README.md:README.md",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/.eslintrc.json:.eslintrc.json",
+      "targetId": "file:eslint.config.js:eslint.config.js",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:index.js:index.js",
+      "targetId": "file:src/index.ts:index.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/management/Client.js:Client.js",
+      "targetId": "file:src/management/Client.ts:Client.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/management/Client.js:Client.js",
+      "targetId": "class:src/management/Client.ts:Client",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Broker.js:Broker.js",
+      "targetId": "file:src/amqp/Broker.ts:Broker.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Broker.js:Broker.js",
+      "targetId": "class:src/amqp/Broker.ts:Broker",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Broker.js:Broker.js",
+      "targetId": "function:src/amqp/Broker.ts:create",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "targetId": "file:src/amqp/BrokerAsPromised.ts:BrokerAsPromised.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "targetId": "class:src/amqp/BrokerAsPromised.ts:BrokerAsPromised",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "targetId": "function:src/amqp/BrokerAsPromised.ts:create",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Publication.js:Publication.js",
+      "targetId": "file:src/amqp/Publication.ts:Publication.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Publication.js:Publication.js",
+      "targetId": "class:src/amqp/Publication.ts:Publication",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/PublicationSession.js:PublicationSession.js",
+      "targetId": "file:src/amqp/PublicationSession.ts:PublicationSession.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/PublicationSession.js:PublicationSession.js",
+      "targetId": "class:src/amqp/PublicationSession.ts:PublicationSession",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+      "targetId": "file:src/amqp/SubscriberError.ts:SubscriberError.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberError.js:SubscriberError.js",
+      "targetId": "class:src/amqp/SubscriberError.ts:SubscriptionRecovery",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+      "targetId": "file:src/amqp/SubscriberSession.ts:SubscriberSession.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSession.js:SubscriberSession.js",
+      "targetId": "class:src/amqp/SubscriberSession.ts:SubscriberSession",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+      "targetId": "file:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js",
+      "targetId": "class:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Subscription.js:Subscription.js",
+      "targetId": "file:src/amqp/Subscription.ts:Subscription.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Subscription.js:Subscription.js",
+      "targetId": "class:src/amqp/Subscription.ts:Subscription",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/applyBindings.js:applyBindings.js",
+      "targetId": "file:src/amqp/tasks/applyBindings.ts:applyBindings.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js",
+      "targetId": "file:src/amqp/tasks/assertExchanges.ts:assertExchanges.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertQueues.js:assertQueues.js",
+      "targetId": "file:src/amqp/tasks/assertQueues.ts:assertQueues.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertVhost.js:assertVhost.js",
+      "targetId": "file:src/amqp/tasks/assertVhost.ts:assertVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js",
+      "targetId": "file:src/amqp/tasks/bounceVhost.ts:bounceVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js",
+      "targetId": "file:src/amqp/tasks/checkExchanges.ts:checkExchanges.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkQueues.js:checkQueues.js",
+      "targetId": "file:src/amqp/tasks/checkQueues.ts:checkQueues.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkVhost.js:checkVhost.js",
+      "targetId": "file:src/amqp/tasks/checkVhost.ts:checkVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeChannels.js:closeChannels.js",
+      "targetId": "file:src/amqp/tasks/closeChannels.ts:closeChannels.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeConnection.js:closeConnection.js",
+      "targetId": "file:src/amqp/tasks/closeConnection.ts:closeConnection.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createChannels.js:createChannels.js",
+      "targetId": "file:src/amqp/tasks/createChannels.ts:createChannels.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createConnection.js:createConnection.js",
+      "targetId": "file:src/amqp/tasks/createConnection.ts:createConnection.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js",
+      "targetId": "file:src/amqp/tasks/deleteExchanges.ts:deleteExchanges.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js",
+      "targetId": "file:src/amqp/tasks/deleteQueues.ts:deleteQueues.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js",
+      "targetId": "file:src/amqp/tasks/deleteVhost.ts:deleteVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js",
+      "targetId": "file:src/amqp/tasks/forewarnVhost.ts:forewarnVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/index.js:index.js",
+      "targetId": "file:src/amqp/tasks/index.ts:index.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initCounters.js:initCounters.js",
+      "targetId": "file:src/amqp/tasks/initCounters.ts:initCounters.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initPublications.js:initPublications.js",
+      "targetId": "file:src/amqp/tasks/initPublications.ts:initPublications.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initShovels.js:initShovels.js",
+      "targetId": "file:src/amqp/tasks/initShovels.ts:initShovels.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js",
+      "targetId": "file:src/amqp/tasks/initSubscriptions.ts:initSubscriptions.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initVhosts.js:initVhosts.js",
+      "targetId": "file:src/amqp/tasks/initVhosts.ts:initVhosts.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js",
+      "targetId": "file:src/amqp/tasks/nukeVhost.ts:nukeVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js",
+      "targetId": "file:src/amqp/tasks/purgeQueues.ts:purgeQueues.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js",
+      "targetId": "file:src/amqp/tasks/purgeVhost.ts:purgeVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js",
+      "targetId": "file:src/amqp/tasks/shutdownVhost.ts:shutdownVhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Vhost.js:Vhost.js",
+      "targetId": "file:src/amqp/Vhost.ts:Vhost.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Vhost.js:Vhost.js",
+      "targetId": "class:src/amqp/Vhost.ts:Vhost",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/Vhost.js:Vhost.js",
+      "targetId": "class:src/amqp/SerialQueue.ts:SerialQueue",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/amqp/XDeath.js:XDeath.js",
+      "targetId": "file:src/amqp/XDeath.ts:XDeath.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/backoff/exponential.js:exponential.js",
+      "targetId": "function:src/backoff/exponential.ts:exponential",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/backoff/index.js:index.js",
+      "targetId": "function:src/backoff/index.ts:backoff",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/backoff/linear.js:linear.js",
+      "targetId": "function:src/backoff/linear.ts:linear",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/counters/index.js:index.js",
+      "targetId": "file:src/counters/index.ts:index.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/counters/inMemory.js:inMemory.js",
+      "targetId": "function:src/counters/inMemory.ts:inMemory",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+      "targetId": "function:src/counters/inMemoryCluster.ts:master",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js",
+      "targetId": "function:src/counters/inMemoryCluster.ts:worker",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/counters/stub.js:stub.js",
+      "targetId": "function:src/counters/stub.ts:stub",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js",
+      "targetId": "function:src/utils/setTimeoutUnref.ts:setTimeoutUnref",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/baseline.js:baseline.js",
+      "targetId": "file:src/config/baseline.ts:baseline.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/baseline.js:baseline.js",
+      "targetId": "function:src/config/baseline.ts:baseline",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/configure.js:configure.js",
+      "targetId": "file:src/config/configure.ts:configure.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/configure.js:configure.js",
+      "targetId": "function:src/config/configure.ts:configure",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/defaults.js:defaults.js",
+      "targetId": "file:src/config/defaults.ts:defaults.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/defaults.js:defaults.js",
+      "targetId": "function:src/config/defaults.ts:defaultConfig",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "targetId": "file:src/config/fqn.ts:fqn.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "targetId": "function:src/config/fqn.ts:qualify",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "targetId": "function:src/config/fqn.ts:prefix",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/fqn.js:fqn.js",
+      "targetId": "function:src/config/fqn.ts:suffix",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/tests.js:tests.js",
+      "targetId": "file:src/config/tests.ts:tests.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/tests.js:tests.js",
+      "targetId": "function:src/config/tests.ts:testConfig",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/validate.js:validate.js",
+      "targetId": "file:src/config/validate.ts:validate.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:lib/config/validate.js:validate.js",
+      "targetId": "function:src/config/validate.ts:validate",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/backoff/exponential.tests.js:exponential.tests.js",
+      "targetId": "file:test/backoff/exponential.test.ts:exponential.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/backoff/linear.tests.js:linear.tests.js",
+      "targetId": "file:test/backoff/linear.test.ts:linear.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/broker.tests.js:broker.tests.js",
+      "targetId": "file:test/broker.test.ts:broker.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js",
+      "targetId": "file:test/brokerAsPromised.test.ts:brokerAsPromised.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/caches/inMemory.tests.js:inMemory.tests.js",
+      "targetId": "file:test/counters/inMemory.test.ts:inMemory.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/config.tests.js:config.tests.js",
+      "targetId": "file:test/config.test.ts:config.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/defaults.tests.js:defaults.tests.js",
+      "targetId": "file:test/defaults.test.ts:defaults.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/publications.tests.js:publications.tests.js",
+      "targetId": "file:test/publications.test.ts:publications.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js",
+      "targetId": "file:test/publicationsAsPromised.test.ts:publicationsAsPromised.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/shovel.tests.js:shovel.tests.js",
+      "targetId": "file:test/shovel.test.ts:shovel.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/subscriptions.tests.js:subscriptions.tests.js",
+      "targetId": "file:test/subscriptions.test.ts:subscriptions.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js",
+      "targetId": "file:test/subscriptionsAsPromised.test.ts:subscriptionsAsPromised.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/utils/amqputils.js:amqputils.js",
+      "targetId": "file:test/utils/amqputils.ts:amqputils.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/validation.tests.js:validation.tests.js",
+      "targetId": "file:test/validation.test.ts:validation.test.ts",
+      "type": "rebuilt_as"
+    },
+    {
+      "sourceId": "file:test/vhost.tests.js:vhost.tests.js",
+      "targetId": "file:test/vhost.test.ts:vhost.test.ts",
+      "type": "rebuilt_as"
+    }
+  ],
+  "stats": {
+    "totalMust": 54,
+    "mustEquivalentOrPresent": 54,
+    "completenessPct": 100,
+    "byRebuiltState": {
+      "excluded": 28,
+      "present": 77
+    }
+  }
+}

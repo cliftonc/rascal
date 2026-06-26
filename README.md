@@ -1,5 +1,7 @@
 # Rascal - A RabbitMQ / AMQP Client
 
+> 📊 **[Explore the Rascal rebuild knowledge graph →](https://cliftonc.github.io/rascal/)** — an interactive dashboard of the codebase layers, contracts, and TypeScript rebuild coverage.
+
 Rascal is an advanced RabbitMQ / AMQP client built on [amqplib](https://www.npmjs.com/package/amqplib).
 
 [![NPM version](https://img.shields.io/npm/v/rascal.svg?style=flat-square)](https://www.npmjs.com/package/rascal)

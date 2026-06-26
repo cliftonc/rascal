@@ -1,0 +1,31 @@
+{
+  "sliceId": "tests-broker",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:test/utils/amqputils.js:amqputils.js",
+      "targetFiles": ["test/utils/amqputils.ts"],
+      "targetIds": ["file:test/utils/amqputils.ts:amqputils.ts"]
+    },
+    {
+      "sourceId": "file:test/broker.tests.js:broker.tests.js",
+      "targetFiles": ["test/broker.test.ts"],
+      "targetIds": ["file:test/broker.test.ts:broker.test.ts"]
+    },
+    {
+      "sourceId": "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js",
+      "targetFiles": ["test/brokerAsPromised.test.ts"],
+      "targetIds": ["file:test/brokerAsPromised.test.ts:brokerAsPromised.test.ts"]
+    },
+    {
+      "sourceId": "file:test/vhost.tests.js:vhost.tests.js",
+      "targetFiles": ["test/vhost.test.ts"],
+      "targetIds": ["file:test/vhost.test.ts:vhost.test.ts"]
+    },
+    {
+      "sourceId": "file:test/shovel.tests.js:shovel.tests.js",
+      "targetFiles": ["test/shovel.test.ts"],
+      "targetIds": ["file:test/shovel.test.ts:shovel.test.ts"]
+    }
+  ]
+}

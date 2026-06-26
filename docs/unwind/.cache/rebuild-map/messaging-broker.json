@@ -1,0 +1,24 @@
+{
+  "sliceId": "messaging-broker",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:lib/amqp/Broker.js:Broker.js",
+      "targetFiles": ["src/amqp/Broker.ts"],
+      "targetIds": [
+        "file:src/amqp/Broker.ts:Broker.ts",
+        "class:src/amqp/Broker.ts:Broker",
+        "function:src/amqp/Broker.ts:create"
+      ]
+    },
+    {
+      "sourceId": "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js",
+      "targetFiles": ["src/amqp/BrokerAsPromised.ts"],
+      "targetIds": [
+        "file:src/amqp/BrokerAsPromised.ts:BrokerAsPromised.ts",
+        "class:src/amqp/BrokerAsPromised.ts:BrokerAsPromised",
+        "function:src/amqp/BrokerAsPromised.ts:create"
+      ]
+    }
+  ]
+}

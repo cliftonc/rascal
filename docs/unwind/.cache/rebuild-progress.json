@@ -1,0 +1,257 @@
+{
+  "file:lib/config/baseline.js:baseline.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/configure.js:configure.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/defaults.js:defaults.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/fqn.js:fqn.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/tests.js:tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/validate.js:validate.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/config/schema.json:schema.json": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/backoff/index.js:index.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/backoff/exponential.js:exponential.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/backoff/linear.js:linear.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/counters/stub.js:stub.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/counters/inMemory.js:inMemory.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/counters/inMemoryCluster.js:inMemoryCluster.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/counters/index.js:index.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/utils/setTimeoutUnref.js:setTimeoutUnref.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/Broker.js:Broker.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/BrokerAsPromised.js:BrokerAsPromised.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/Subscription.js:Subscription.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/SubscriberSession.js:SubscriberSession.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/SubscriberSessionAsPromised.js:SubscriberSessionAsPromised.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/SubscriberError.js:SubscriberError.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/XDeath.js:XDeath.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/index.js:index.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/applyBindings.js:applyBindings.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/assertQueues.js:assertQueues.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/assertVhost.js:assertVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/checkQueues.js:checkQueues.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/checkVhost.js:checkVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/closeChannels.js:closeChannels.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/closeConnection.js:closeConnection.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/createChannels.js:createChannels.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/createConnection.js:createConnection.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/initCounters.js:initCounters.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/initPublications.js:initPublications.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/initShovels.js:initShovels.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/initVhosts.js:initVhosts.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/management/Client.js:Client.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/Vhost.js:Vhost.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/Publication.js:Publication.js": {
+    "rebuildStatus": "done"
+  },
+  "file:lib/amqp/PublicationSession.js:PublicationSession.js": {
+    "rebuildStatus": "done"
+  },
+  "file:index.js:index.js": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:BrokerAsPromised": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:createBroker": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:createBrokerAsPromised": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:defaultConfig": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:testConfig": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:withDefaultConfig": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:withTestConfig": {
+    "rebuildStatus": "done"
+  },
+  "export:index.js:counters": {
+    "rebuildStatus": "done"
+  },
+  "file:test/utils/amqputils.js:amqputils.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/broker.tests.js:broker.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/brokerAsPromised.tests.js:brokerAsPromised.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/vhost.tests.js:vhost.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/shovel.tests.js:shovel.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/publications.tests.js:publications.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/publicationsAsPromised.tests.js:publicationsAsPromised.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/subscriptions.tests.js:subscriptions.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/subscriptionsAsPromised.tests.js:subscriptionsAsPromised.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/backoff/exponential.tests.js:exponential.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/backoff/linear.tests.js:linear.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/caches/inMemory.tests.js:inMemory.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/config.tests.js:config.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/defaults.tests.js:defaults.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:test/validation.tests.js:validation.tests.js": {
+    "rebuildStatus": "done"
+  },
+  "file:package.json:package.json": {
+    "rebuildStatus": "done"
+  },
+  "file:.github/workflows/node-js-publish.yml:node-js-publish.yml": {
+    "rebuildStatus": "done"
+  },
+  "file:.github/workflows/node-js-ci.yml:node-js-ci.yml": {
+    "rebuildStatus": "done"
+  },
+  "file:.eslintrc.json:.eslintrc.json": {
+    "rebuildStatus": "done"
+  },
+  "file:test/.eslintrc.json:.eslintrc.json": {
+    "rebuildStatus": "done"
+  },
+  "file:.husky/pre-commit:pre-commit": {
+    "rebuildStatus": "done"
+  },
+  "file:.npmignore:.npmignore": {
+    "rebuildStatus": "done"
+  },
+  "file:LICENSE.txt:LICENSE.txt": {
+    "rebuildStatus": "done"
+  },
+  "file:README.md:README.md": {
+    "rebuildStatus": "done"
+  }
+}

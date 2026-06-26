@@ -4,3 +4,6 @@ coverage
 .codeclimate
 .idea
 .nyc_output
+
+# Unwind verify working cache (regenerable)
+docs/unwind/.cache/target-scan/

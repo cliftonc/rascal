@@ -1,0 +1,141 @@
+{
+  "sliceId": "messaging-tasks",
+  "targetRoot": "/Users/clifton/work/rascal-ts",
+  "mappings": [
+    {
+      "sourceId": "file:lib/amqp/tasks/index.js:index.js",
+      "targetFiles": ["src/amqp/tasks/index.ts"],
+      "targetIds": ["file:src/amqp/tasks/index.ts:index.ts"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/applyBindings.js:applyBindings.js",
+      "targetFiles": ["src/amqp/tasks/applyBindings.ts"],
+      "targetIds": ["file:src/amqp/tasks/applyBindings.ts:applyBindings.ts", "function:src/amqp/tasks/applyBindings.ts:applyBindings"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertExchanges.js:assertExchanges.js",
+      "targetFiles": ["src/amqp/tasks/assertExchanges.ts"],
+      "targetIds": ["file:src/amqp/tasks/assertExchanges.ts:assertExchanges.ts", "function:src/amqp/tasks/assertExchanges.ts:assertExchanges"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertQueues.js:assertQueues.js",
+      "targetFiles": ["src/amqp/tasks/assertQueues.ts"],
+      "targetIds": ["file:src/amqp/tasks/assertQueues.ts:assertQueues.ts", "function:src/amqp/tasks/assertQueues.ts:assertQueues"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/assertVhost.js:assertVhost.js",
+      "targetFiles": ["src/amqp/tasks/assertVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/assertVhost.ts:assertVhost.ts", "function:src/amqp/tasks/assertVhost.ts:assertVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/bounceVhost.js:bounceVhost.js",
+      "targetFiles": ["src/amqp/tasks/bounceVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/bounceVhost.ts:bounceVhost.ts", "function:src/amqp/tasks/bounceVhost.ts:bounceVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkExchanges.js:checkExchanges.js",
+      "targetFiles": ["src/amqp/tasks/checkExchanges.ts"],
+      "targetIds": ["file:src/amqp/tasks/checkExchanges.ts:checkExchanges.ts", "function:src/amqp/tasks/checkExchanges.ts:checkExchanges"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkQueues.js:checkQueues.js",
+      "targetFiles": ["src/amqp/tasks/checkQueues.ts"],
+      "targetIds": ["file:src/amqp/tasks/checkQueues.ts:checkQueues.ts", "function:src/amqp/tasks/checkQueues.ts:checkQueues"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/checkVhost.js:checkVhost.js",
+      "targetFiles": ["src/amqp/tasks/checkVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/checkVhost.ts:checkVhost.ts", "function:src/amqp/tasks/checkVhost.ts:checkVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeChannels.js:closeChannels.js",
+      "targetFiles": ["src/amqp/tasks/closeChannels.ts"],
+      "targetIds": ["file:src/amqp/tasks/closeChannels.ts:closeChannels.ts", "function:src/amqp/tasks/closeChannels.ts:closeChannels"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/closeConnection.js:closeConnection.js",
+      "targetFiles": ["src/amqp/tasks/closeConnection.ts"],
+      "targetIds": ["file:src/amqp/tasks/closeConnection.ts:closeConnection.ts", "function:src/amqp/tasks/closeConnection.ts:closeConnection"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createChannels.js:createChannels.js",
+      "targetFiles": ["src/amqp/tasks/createChannels.ts"],
+      "targetIds": ["file:src/amqp/tasks/createChannels.ts:createChannels.ts", "function:src/amqp/tasks/createChannels.ts:createChannels"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/createConnection.js:createConnection.js",
+      "targetFiles": ["src/amqp/tasks/createConnection.ts"],
+      "targetIds": ["file:src/amqp/tasks/createConnection.ts:createConnection.ts", "function:src/amqp/tasks/createConnection.ts:createConnection"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteExchanges.js:deleteExchanges.js",
+      "targetFiles": ["src/amqp/tasks/deleteExchanges.ts"],
+      "targetIds": ["file:src/amqp/tasks/deleteExchanges.ts:deleteExchanges.ts", "function:src/amqp/tasks/deleteExchanges.ts:deleteExchanges"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteQueues.js:deleteQueues.js",
+      "targetFiles": ["src/amqp/tasks/deleteQueues.ts"],
+      "targetIds": ["file:src/amqp/tasks/deleteQueues.ts:deleteQueues.ts", "function:src/amqp/tasks/deleteQueues.ts:deleteQueues"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/deleteVhost.js:deleteVhost.js",
+      "targetFiles": ["src/amqp/tasks/deleteVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/deleteVhost.ts:deleteVhost.ts", "function:src/amqp/tasks/deleteVhost.ts:deleteVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/forewarnVhost.js:forewarnVhost.js",
+      "targetFiles": ["src/amqp/tasks/forewarnVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/forewarnVhost.ts:forewarnVhost.ts", "function:src/amqp/tasks/forewarnVhost.ts:forewarnVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initCounters.js:initCounters.js",
+      "targetFiles": ["src/amqp/tasks/initCounters.ts"],
+      "targetIds": ["file:src/amqp/tasks/initCounters.ts:initCounters.ts", "function:src/amqp/tasks/initCounters.ts:initCounters"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initPublications.js:initPublications.js",
+      "targetFiles": ["src/amqp/tasks/initPublications.ts"],
+      "targetIds": ["file:src/amqp/tasks/initPublications.ts:initPublications.ts", "function:src/amqp/tasks/initPublications.ts:initPublications"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initShovels.js:initShovels.js",
+      "targetFiles": ["src/amqp/tasks/initShovels.ts"],
+      "targetIds": ["file:src/amqp/tasks/initShovels.ts:initShovels.ts", "function:src/amqp/tasks/initShovels.ts:initShovels"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initSubscriptions.js:initSubscriptions.js",
+      "targetFiles": ["src/amqp/tasks/initSubscriptions.ts"],
+      "targetIds": ["file:src/amqp/tasks/initSubscriptions.ts:initSubscriptions.ts", "function:src/amqp/tasks/initSubscriptions.ts:initSubscriptions"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/initVhosts.js:initVhosts.js",
+      "targetFiles": ["src/amqp/tasks/initVhosts.ts"],
+      "targetIds": ["file:src/amqp/tasks/initVhosts.ts:initVhosts.ts", "function:src/amqp/tasks/initVhosts.ts:initVhosts"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/nukeVhost.js:nukeVhost.js",
+      "targetFiles": ["src/amqp/tasks/nukeVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/nukeVhost.ts:nukeVhost.ts", "function:src/amqp/tasks/nukeVhost.ts:nukeVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeQueues.js:purgeQueues.js",
+      "targetFiles": ["src/amqp/tasks/purgeQueues.ts"],
+      "targetIds": ["file:src/amqp/tasks/purgeQueues.ts:purgeQueues.ts", "function:src/amqp/tasks/purgeQueues.ts:purgeQueues"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/purgeVhost.js:purgeVhost.js",
+      "targetFiles": ["src/amqp/tasks/purgeVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/purgeVhost.ts:purgeVhost.ts", "function:src/amqp/tasks/purgeVhost.ts:purgeVhost"]
+    },
+    {
+      "sourceId": "file:lib/amqp/tasks/shutdownVhost.js:shutdownVhost.js",
+      "targetFiles": ["src/amqp/tasks/shutdownVhost.ts"],
+      "targetIds": ["file:src/amqp/tasks/shutdownVhost.ts:shutdownVhost.ts", "function:src/amqp/tasks/shutdownVhost.ts:shutdownVhost"]
+    },
+    {
+      "sourceId": "file:lib/management/Client.js:Client.js",
+      "targetFiles": ["src/management/Client.ts"],
+      "targetIds": ["file:src/management/Client.ts:Client.ts", "class:src/management/Client.ts:Client"]
+    }
+  ]
+}
