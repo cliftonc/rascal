@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-06-26T05:05:09.310Z",
+  "generatedAt": "2026-06-26T05:55:40.958Z",
   "project": {
     "name": "rascal",
     "languages": [
@@ -11,6 +11,29 @@
       "unknown",
       "yaml"
     ]
+  },
+  "rebuildVerification": {
+    "targetProject": {
+      "name": "rascal",
+      "root": "/Users/clifton/work/rascal-ts",
+      "languages": [
+        "javascript",
+        "json",
+        "markdown",
+        "txt",
+        "typescript",
+        "unknown",
+        "yaml"
+      ]
+    },
+    "totalMust": 54,
+    "mustEquivalentOrPresent": 54,
+    "completenessPct": 100,
+    "byRebuiltState": {
+      "excluded": 28,
+      "present": 77
+    },
+    "generatedAt": "2026-06-26T03:54:38.578Z"
   },
   "repository": {
     "linkFormat": "https://github.com/cliftonc/rascal/blob/master/{path}#L{start}-L{end}",
@@ -65,7 +88,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/ci-cd.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -83,7 +110,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -101,7 +132,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "eslint.config.js"
+          ],
+          "ids": [
+            "file:eslint.config.js:eslint.config.js"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -119,7 +160,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/ci-cd.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            ".github/workflows/node-js-ci.yml"
+          ],
+          "ids": [
+            "file:.github/workflows/node-js-ci.yml:node-js-ci.yml"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -137,7 +188,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/ci-cd.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            ".github/workflows/node-js-publish.yml"
+          ],
+          "ids": [
+            "file:.github/workflows/node-js-publish.yml:node-js-publish.yml"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -155,7 +216,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            ".husky/pre-commit"
+          ],
+          "ids": [
+            "file:.husky/pre-commit:pre-commit"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -173,7 +244,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            ".npmignore"
+          ],
+          "ids": [
+            "file:.npmignore:.npmignore"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -191,7 +272,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -209,7 +294,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -227,7 +316,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -245,7 +338,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -263,7 +360,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -281,7 +382,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -299,7 +404,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -317,7 +426,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -335,7 +448,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -353,7 +470,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -371,7 +492,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -389,7 +514,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -407,7 +536,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -425,7 +558,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -443,7 +580,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -461,7 +602,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -479,7 +624,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -497,7 +646,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -515,7 +668,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -533,7 +690,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -551,7 +712,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -569,7 +734,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -587,7 +756,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -605,7 +778,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -623,7 +800,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/examples.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -641,7 +822,20 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/types.ts",
+            "src/config/schema.ts"
+          ],
+          "ids": [
+            "file:src/config/types.ts:types.ts",
+            "file:src/config/schema.ts:schema.ts",
+            "function:src/config/schema.ts:validateSchema"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -659,7 +853,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "LICENSE.txt"
+          ],
+          "ids": [
+            "file:LICENSE.txt:LICENSE.txt"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -677,7 +881,11 @@
         "contractKind": null,
         "coverage": "excluded",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [],
+          "state": "excluded"
+        }
       }
     },
     {
@@ -695,7 +903,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "package.json"
+          ],
+          "ids": [
+            "file:package.json:package.json"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -713,7 +931,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "README.md"
+          ],
+          "ids": [
+            "file:README.md:README.md"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -731,7 +959,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/infrastructure/build-config.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "eslint.config.js"
+          ],
+          "ids": [
+            "file:eslint.config.js:eslint.config.js"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -749,7 +987,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/api/public-exports.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/index.ts"
+          ],
+          "ids": [
+            "file:src/index.ts:index.ts",
+            "export:src/index.ts:Broker"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -767,7 +1016,18 @@
         "contractKind": null,
         "coverage": "documented",
         "docRef": null,
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/management/Client.ts"
+          ],
+          "ids": [
+            "file:src/management/Client.ts:Client.ts",
+            "class:src/management/Client.ts:Client"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -785,7 +1045,19 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/broker.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/Broker.ts"
+          ],
+          "ids": [
+            "file:src/amqp/Broker.ts:Broker.ts",
+            "class:src/amqp/Broker.ts:Broker",
+            "function:src/amqp/Broker.ts:create"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -803,7 +1075,19 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/broker.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/BrokerAsPromised.ts"
+          ],
+          "ids": [
+            "file:src/amqp/BrokerAsPromised.ts:BrokerAsPromised.ts",
+            "class:src/amqp/BrokerAsPromised.ts:BrokerAsPromised",
+            "function:src/amqp/BrokerAsPromised.ts:create"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -821,7 +1105,27 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/publication.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/Publication.ts"
+          ],
+          "ids": [
+            "file:src/amqp/Publication.ts:Publication.ts",
+            "class:src/amqp/Publication.ts:Publication",
+            "function:src/amqp/Publication.ts:create",
+            "function:src/amqp/Publication.ts:publishToExchange",
+            "function:src/amqp/Publication.ts:publishToConfirmExchange",
+            "function:src/amqp/Publication.ts:sendToQueue",
+            "function:src/amqp/Publication.ts:sendToConfirmQueue",
+            "function:src/amqp/Publication.ts:publishNoConfirm",
+            "function:src/amqp/Publication.ts:publishAndConfirm",
+            "function:src/amqp/Publication.ts:encrypt",
+            "function:src/amqp/Publication.ts:getContent"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -839,7 +1143,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/publication.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/PublicationSession.ts"
+          ],
+          "ids": [
+            "file:src/amqp/PublicationSession.ts:PublicationSession.ts",
+            "class:src/amqp/PublicationSession.ts:PublicationSession"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -857,7 +1172,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/recovery.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/SubscriberError.ts"
+          ],
+          "ids": [
+            "file:src/amqp/SubscriberError.ts:SubscriberError.ts",
+            "class:src/amqp/SubscriberError.ts:SubscriptionRecovery"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -875,7 +1201,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/SubscriberSession.ts"
+          ],
+          "ids": [
+            "file:src/amqp/SubscriberSession.ts:SubscriberSession.ts",
+            "class:src/amqp/SubscriberSession.ts:SubscriberSession"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -893,7 +1230,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/SubscriberSessionAsPromised.ts"
+          ],
+          "ids": [
+            "file:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised.ts",
+            "class:src/amqp/SubscriberSessionAsPromised.ts:SubscriberSessionAsPromised"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -911,7 +1259,19 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/subscription.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/Subscription.ts"
+          ],
+          "ids": [
+            "file:src/amqp/Subscription.ts:Subscription.ts",
+            "class:src/amqp/Subscription.ts:Subscription",
+            "function:src/amqp/Subscription.ts:create"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -929,7 +1289,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/applyBindings.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/applyBindings.ts:applyBindings.ts",
+            "function:src/amqp/tasks/applyBindings.ts:applyBindings"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -947,7 +1318,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/assertExchanges.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/assertExchanges.ts:assertExchanges.ts",
+            "function:src/amqp/tasks/assertExchanges.ts:assertExchanges"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -965,7 +1347,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/assertQueues.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/assertQueues.ts:assertQueues.ts",
+            "function:src/amqp/tasks/assertQueues.ts:assertQueues"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -983,7 +1376,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/assertVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/assertVhost.ts:assertVhost.ts",
+            "function:src/amqp/tasks/assertVhost.ts:assertVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1001,7 +1405,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/bounceVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/bounceVhost.ts:bounceVhost.ts",
+            "function:src/amqp/tasks/bounceVhost.ts:bounceVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1019,7 +1434,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/checkExchanges.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/checkExchanges.ts:checkExchanges.ts",
+            "function:src/amqp/tasks/checkExchanges.ts:checkExchanges"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1037,7 +1463,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/checkQueues.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/checkQueues.ts:checkQueues.ts",
+            "function:src/amqp/tasks/checkQueues.ts:checkQueues"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1055,7 +1492,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/checkVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/checkVhost.ts:checkVhost.ts",
+            "function:src/amqp/tasks/checkVhost.ts:checkVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1073,7 +1521,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/closeChannels.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/closeChannels.ts:closeChannels.ts",
+            "function:src/amqp/tasks/closeChannels.ts:closeChannels"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1091,7 +1550,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/closeConnection.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/closeConnection.ts:closeConnection.ts",
+            "function:src/amqp/tasks/closeConnection.ts:closeConnection"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1109,7 +1579,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/createChannels.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/createChannels.ts:createChannels.ts",
+            "function:src/amqp/tasks/createChannels.ts:createChannels"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1127,7 +1608,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/createConnection.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/createConnection.ts:createConnection.ts",
+            "function:src/amqp/tasks/createConnection.ts:createConnection"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1145,7 +1637,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/deleteExchanges.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/deleteExchanges.ts:deleteExchanges.ts",
+            "function:src/amqp/tasks/deleteExchanges.ts:deleteExchanges"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1163,7 +1666,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/deleteQueues.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/deleteQueues.ts:deleteQueues.ts",
+            "function:src/amqp/tasks/deleteQueues.ts:deleteQueues"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1181,7 +1695,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/deleteVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/deleteVhost.ts:deleteVhost.ts",
+            "function:src/amqp/tasks/deleteVhost.ts:deleteVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1199,7 +1724,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/forewarnVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/forewarnVhost.ts:forewarnVhost.ts",
+            "function:src/amqp/tasks/forewarnVhost.ts:forewarnVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1217,7 +1753,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/index.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/index.ts:index.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1235,7 +1781,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/initCounters.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/initCounters.ts:initCounters.ts",
+            "function:src/amqp/tasks/initCounters.ts:initCounters"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1253,7 +1810,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/initPublications.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/initPublications.ts:initPublications.ts",
+            "function:src/amqp/tasks/initPublications.ts:initPublications"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1271,7 +1839,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/initShovels.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/initShovels.ts:initShovels.ts",
+            "function:src/amqp/tasks/initShovels.ts:initShovels"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1289,7 +1868,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/initSubscriptions.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/initSubscriptions.ts:initSubscriptions.ts",
+            "function:src/amqp/tasks/initSubscriptions.ts:initSubscriptions"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1307,7 +1897,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/initVhosts.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/initVhosts.ts:initVhosts.ts",
+            "function:src/amqp/tasks/initVhosts.ts:initVhosts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1325,7 +1926,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/nukeVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/nukeVhost.ts:nukeVhost.ts",
+            "function:src/amqp/tasks/nukeVhost.ts:nukeVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1343,7 +1955,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/purgeQueues.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/purgeQueues.ts:purgeQueues.ts",
+            "function:src/amqp/tasks/purgeQueues.ts:purgeQueues"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1361,7 +1984,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/purgeVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/purgeVhost.ts:purgeVhost.ts",
+            "function:src/amqp/tasks/purgeVhost.ts:purgeVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1379,7 +2013,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/tasks.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/tasks/shutdownVhost.ts"
+          ],
+          "ids": [
+            "file:src/amqp/tasks/shutdownVhost.ts:shutdownVhost.ts",
+            "function:src/amqp/tasks/shutdownVhost.ts:shutdownVhost"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1397,7 +2042,22 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/vhost.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/Vhost.ts",
+            "src/amqp/SerialQueue.ts"
+          ],
+          "ids": [
+            "file:src/amqp/Vhost.ts:Vhost.ts",
+            "class:src/amqp/Vhost.ts:Vhost",
+            "function:src/amqp/Vhost.ts:create",
+            "function:src/amqp/Vhost.ts:composeTasks",
+            "class:src/amqp/SerialQueue.ts:SerialQueue"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1415,7 +2075,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/messaging/recovery.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/amqp/XDeath.ts"
+          ],
+          "ids": [
+            "file:src/amqp/XDeath.ts:XDeath.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1433,7 +2103,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/backoff/exponential.ts"
+          ],
+          "ids": [
+            "function:src/backoff/exponential.ts:exponential"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1451,7 +2131,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/backoff/index.ts"
+          ],
+          "ids": [
+            "function:src/backoff/index.ts:backoff"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1469,7 +2159,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/backoff.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/backoff/linear.ts"
+          ],
+          "ids": [
+            "function:src/backoff/linear.ts:linear"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1487,7 +2187,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/counters/index.ts"
+          ],
+          "ids": [
+            "file:src/counters/index.ts:index.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1505,7 +2215,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/counters/inMemory.ts"
+          ],
+          "ids": [
+            "function:src/counters/inMemory.ts:inMemory"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1523,7 +2243,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/counters/inMemoryCluster.ts"
+          ],
+          "ids": [
+            "function:src/counters/inMemoryCluster.ts:master",
+            "function:src/counters/inMemoryCluster.ts:worker"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1541,7 +2272,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/counters.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/counters/stub.ts"
+          ],
+          "ids": [
+            "function:src/counters/stub.ts:stub"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1559,7 +2300,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/service-layer/utilities.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/utils/setTimeoutUnref.ts"
+          ],
+          "ids": [
+            "function:src/utils/setTimeoutUnref.ts:setTimeoutUnref"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1577,7 +2328,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/entities.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/baseline.ts"
+          ],
+          "ids": [
+            "file:src/config/baseline.ts:baseline.ts",
+            "function:src/config/baseline.ts:baseline"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1595,7 +2357,20 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/configure.ts",
+            "src/config/fqn.ts",
+            "src/config/helpers.ts"
+          ],
+          "ids": [
+            "file:src/config/configure.ts:configure.ts",
+            "function:src/config/configure.ts:configure"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1613,7 +2388,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/defaults.ts"
+          ],
+          "ids": [
+            "file:src/config/defaults.ts:defaults.ts",
+            "function:src/config/defaults.ts:defaultConfig"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1631,7 +2417,20 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/fqn.ts"
+          ],
+          "ids": [
+            "file:src/config/fqn.ts:fqn.ts",
+            "function:src/config/fqn.ts:qualify",
+            "function:src/config/fqn.ts:prefix",
+            "function:src/config/fqn.ts:suffix"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1649,7 +2448,18 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/value-objects.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/tests.ts"
+          ],
+          "ids": [
+            "file:src/config/tests.ts:tests.ts",
+            "function:src/config/tests.ts:testConfig"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1667,7 +2477,19 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/domain-model/validation.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "src/config/validate.ts",
+            "src/config/helpers.ts"
+          ],
+          "ids": [
+            "file:src/config/validate.ts:validate.ts",
+            "function:src/config/validate.ts:validate"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1685,7 +2507,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/backoff/exponential.test.ts"
+          ],
+          "ids": [
+            "file:test/backoff/exponential.test.ts:exponential.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1703,7 +2535,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/backoff/linear.test.ts"
+          ],
+          "ids": [
+            "file:test/backoff/linear.test.ts:linear.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1721,7 +2563,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/broker-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/broker.test.ts"
+          ],
+          "ids": [
+            "file:test/broker.test.ts:broker.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1739,7 +2591,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/broker-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/brokerAsPromised.test.ts"
+          ],
+          "ids": [
+            "file:test/brokerAsPromised.test.ts:brokerAsPromised.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1757,7 +2619,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/pure-unit-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/counters/inMemory.test.ts"
+          ],
+          "ids": [
+            "file:test/counters/inMemory.test.ts:inMemory.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1775,7 +2647,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/config.test.ts"
+          ],
+          "ids": [
+            "file:test/config.test.ts:config.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1793,7 +2675,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/defaults.test.ts"
+          ],
+          "ids": [
+            "file:test/defaults.test.ts:defaults.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1811,7 +2703,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/publication-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/publications.test.ts"
+          ],
+          "ids": [
+            "file:test/publications.test.ts:publications.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1829,7 +2731,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/publication-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/publicationsAsPromised.test.ts"
+          ],
+          "ids": [
+            "file:test/publicationsAsPromised.test.ts:publicationsAsPromised.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1847,7 +2759,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/vhost-shovel-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/shovel.test.ts"
+          ],
+          "ids": [
+            "file:test/shovel.test.ts:shovel.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1865,7 +2787,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/subscription-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/subscriptions.test.ts"
+          ],
+          "ids": [
+            "file:test/subscriptions.test.ts:subscriptions.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1883,7 +2815,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/subscription-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/subscriptionsAsPromised.test.ts"
+          ],
+          "ids": [
+            "file:test/subscriptionsAsPromised.test.ts:subscriptionsAsPromised.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1901,7 +2843,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/utilities.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/utils/amqputils.ts"
+          ],
+          "ids": [
+            "file:test/utils/amqputils.ts:amqputils.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1919,7 +2871,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/config-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/validation.test.ts"
+          ],
+          "ids": [
+            "file:test/validation.test.ts:validation.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     },
     {
@@ -1937,7 +2899,17 @@
         "contractKind": null,
         "coverage": "verified",
         "docRef": "docs/unwind/layers/unit-tests/vhost-shovel-tests.md",
-        "rebuildStatus": "done"
+        "rebuildStatus": "done",
+        "target": {
+          "files": [
+            "test/vhost.test.ts"
+          ],
+          "ids": [
+            "file:test/vhost.test.ts:vhost.test.ts"
+          ],
+          "state": "present",
+          "confirmed": true
+        }
       }
     }
   ],
